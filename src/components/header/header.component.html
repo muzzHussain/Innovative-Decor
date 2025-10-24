@@ -1,0 +1,51 @@
+<header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-md">
+  <nav class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <a routerLink="/" class="text-2xl font-bold font-serif text-stone-800 tracking-wider">
+        INNOVATIVE DECOR
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        @for (link of navLinks; track link.path) {
+          <a [routerLink]="link.path"
+             routerLinkActive="text-amber-600 border-b-2 border-amber-600"
+             [routerLinkActiveOptions]="{exact: link.path === '/'}"
+             class="text-stone-600 hover:text-amber-600 transition-colors duration-300 pb-1">
+            {{ link.label }}
+          </a>
+        }
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button (click)="toggleMenu()" class="text-stone-800 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            @if (!isMenuOpen()) {
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            } @else {
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            }
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    @if (isMenuOpen()) {
+      <div class="md:hidden mt-4 animate-fade-in-down">
+        <div class="flex flex-col space-y-4">
+          @for (link of navLinks; track link.path) {
+            <a [routerLink]="link.path"
+               routerLinkActive="text-amber-600 bg-stone-100"
+               [routerLinkActiveOptions]="{exact: link.path === '/'}"
+               (click)="closeMenu()"
+               class="block px-4 py-2 rounded-md text-stone-600 hover:bg-stone-100 hover:text-amber-600 transition-colors duration-300">
+              {{ link.label }}
+            </a>
+          }
+        </div>
+      </div>
+    }
+  </nav>
+</header>
