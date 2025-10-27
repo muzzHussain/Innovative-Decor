@@ -1,0 +1,18 @@
+<!-- <div class="relative w-full h-full bg-stone-200 overflow-hidden"> -->
+<div class="relative w-full h-full overflow-hidden">
+
+    @if(isLoading()){
+        <div class="absolute inset-0 shimmer"></div>
+    }
+
+    <img
+        [src]="src()"
+        alt="alt()"
+        [class]="imageClass()"
+        [class.opacity-0]="isLoading()"
+        class="transition-opacity duration-500"
+        (load)="onLoad()"
+        (error)="onLoad()"
+    />
+
+</div>
