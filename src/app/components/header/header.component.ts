@@ -14,7 +14,7 @@ interface NavLink {
 })
 export class HeaderComponent {
   isMenuOpen = signal(false);
-
+  
   navLinks: NavLink[] = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },

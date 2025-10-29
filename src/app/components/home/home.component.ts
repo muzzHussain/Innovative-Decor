@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, OnInit, OnDestroy, signal } from '@angular/core';
+import { Component, ChangeDetectionStrategy, OnInit, OnDestroy, signal, AfterViewInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { ImageWithLoader } from '../image-with-loader/image-with-loader'
 
@@ -77,6 +77,26 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     clearInterval(this.intervalId);
   }
+
+  // ngAfterViewInit(): void {
+  //   const marquee=document.querySelector('.animate-marquee') as HTMLElement;
+  //   console.log("marquee -> ", marquee);
+  //   if(marquee){
+  //     const totalWidth=marquee.scrollWidth;
+  //     console.log("total width -> ", totalWidth);
+  //     const screenWidth=window.innerWidth;
+  //     console.log("screen width -> ", screenWidth);
+  //     const speedFactor = totalWidth/screenWidth;
+  //     console.log("speed factor -> ", speedFactor);
+
+  //     var updatedSpeed=Math.round(speedFactor * 10);
+  //     console.log("updatedSpeed -> ", updatedSpeed)
+
+  //     if(updatedSpeed>30) updatedSpeed = 6
+  //     marquee.style.animationDuration=`${updatedSpeed}s`;
+  //     // marquee.style.animationDuration =`${Math.round(speedFactor * 10)}s`;
+  //   }
+  // }
 
   startTestimonialSlider() {
     this.intervalId = window.setInterval(() => {
