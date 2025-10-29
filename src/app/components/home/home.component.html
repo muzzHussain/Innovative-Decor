@@ -83,7 +83,8 @@
         <h2 class="text-3xl md:text-4xl font-bold font-serif text-stone-800">What Our Clients Say</h2>
     </div>
     <div class="relative max-w-4xl mx-auto p-2 rounded-2xl bg-gradient-to-r from-red-500 via-amber-500 to-yellow-500">
-        <div class="bg-white rounded-xl p-8 md:p-12 relative overflow-hidden min-h-[300px]">
+        <div id="testimonial" class="bg-white rounded-xl p-8 md:p-12 relative overflow-hidden "> <!--min-h-[300px]-->
+        <!-- <div id="testimonial" class="bg-white rounded-xl p-8 md:p-12 relative overflow-hidden min-h-[420px] md:min-h-[300px]"> -->
             @for (testimonial of testimonials; track testimonial.name; let i = $index) {
                 <div 
                     class="absolute top-0 left-0 w-full h-full p-8 md:p-12 transition-all duration-700 ease-in-out"
@@ -113,7 +114,8 @@
                 </div>
             }
             <!-- Navigation -->
-            <div class="absolute bottom-6 right-8 flex items-center gap-4">
+            <!-- <div class="absolute bottom-6 right-8 flex items-center gap-4"> -->
+            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-4 md:left-auto md:right-8 md:translate-x-0">
                 <button (click)="prevTestimonial()" class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 flex items-center justify-center transition-colors">
                     <svg class="w-5 h-5 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 </button>

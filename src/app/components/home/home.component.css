@@ -13,3 +13,26 @@
 .animate-fade-in-up {
   animation: fade-in-up 1s ease-out forwards;
 }
+
+#testimonial{
+  min-height: 300px;
+}
+
+.text-xl{
+    font-size: 1.25rem;
+  }
+
+@media ( max-width: 767px ) {
+  #testimonial{
+    min-height: 510px;
+  }
+  .text-xl{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px){
+  #testimonial{
+    min-height: 550px;
+  }
+}

@@ -5,7 +5,7 @@ import { ImageWithLoader } from '../image-with-loader/image-with-loader'
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  // styleUrls: ['./home.component.css'],
+  styleUrls: ['./home.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, ImageWithLoader],
 })
@@ -81,7 +81,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   startTestimonialSlider() {
     this.intervalId = window.setInterval(() => {
       this.currentTestimonialIndex.update(i => (i + 1) % this.testimonials.length);
-    }, 2500); // Change every 2.5 seconds
+    }, 3500); // Change every 3.5 seconds
   }
 
   selectTestimonial(index: number) {
