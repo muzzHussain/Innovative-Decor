@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, signal, inject, PLATFORM_ID } from '@angular/core';
+import { Component, ChangeDetectionStrategy, signal, inject, PLATFORM_ID, HostListener } from '@angular/core';
 import { isPlatformBrowser } from "@angular/common";
 import { Router, RouterOutlet, NavigationEnd } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
@@ -14,6 +14,7 @@ import { filter, take } from 'rxjs/operators'
 export class AppComponent {
   isLoaded=signal(false);
   isLoaderVisible=signal(true);
+  showScrollTopButton = signal(false);
 
   private router=inject(Router)
   private platformId=inject(PLATFORM_ID)
@@ -36,5 +37,18 @@ export class AppComponent {
     }
   }
 
+
+  @HostListener('window:scroll')
+  onWindowScroll(){
+    const offset=window.scrollY || document.documentElement.scrollTop || 0;
+    this.showScrollTopButton.set(offset > 0);
+  }
+
+  scrollToTop(){
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
 }
