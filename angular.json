@@ -18,7 +18,8 @@
             "tsConfig": "tsconfig.json",
             "assets": [
               "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/_redirects"
             ]
           },
           "configurations": {
