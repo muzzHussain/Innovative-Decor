@@ -10,8 +10,9 @@ export const APP_ROUTES: Routes = [
   { path: '', component: HomeComponent, title: 'Innovative Decor | Home' },
   { path: 'about', component: AboutComponent, title: 'Innovative Decor | About Us' },
   { path: 'work', component: WorkComponent, title: 'Innovative Decor | Our Work' },
-  { path: 'designs', component: DesignsComponent, title: 'Innovative Decor | Designs' },
+  // { path: 'designs', component: DesignsComponent, title: 'Innovative Decor | Designs' },
+  { path: 'designs', component: WorkInProgress, title: 'Innovative Decor | Designs' },
   { path: 'contact', component: ContactComponent, title: 'Innovative Decor | Contact' },
-  { path: 'wip',component:WorkInProgress, title:'Innovative Decor | WIP' },
+  { path: 'wip',component:DesignsComponent, title:'Innovative Decor | WIP - Designs' },
   { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
