@@ -9,6 +9,7 @@ interface NavLink {
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
+  styleUrl:'./header.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, RouterLinkActive],
 })
