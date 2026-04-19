@@ -11,12 +11,12 @@ import { ImageWithLoader } from '../image-with-loader/image-with-loader'
 })
 export class HomeComponent implements OnInit, OnDestroy {
   projects = [
-    { src: 'assets/images/Modern_living_room.jpg', alt: 'Modern Living Room' },
-    { src: 'assets/images/Corporate_Office_Space.jpg', alt: 'Corporate Office Space' },
-    { src: 'assets/images/Luxury_Apartment_Interior.jpg', alt: 'Luxury Apartment Interior' },
-    { src: 'assets/images/Government_Building_Hall.jpg', alt: 'Government Building Hall' },
-    { src: 'assets/images/Cozy_Dream_Home_Bedroom.jpg', alt: 'Cozy Dream Home Bedroom' },
-    { src: 'assets/images/Sleek_kitchen_design.jpg', alt: 'Sleek Kitchen Design' },
+    { src: 'assets/images/Modern_living_room.jpg', alt: 'Modern Living Room', category: 'Interior Decor' },
+    { src: 'assets/images/Corporate_Office_Space.jpg', alt: 'Corporate Office Space', category: 'Commercial' },
+    { src: 'assets/images/Luxury_Apartment_Interior.jpg', alt: 'Luxury Apartment Interior', category: 'Residential' },
+    { src: 'assets/images/Government_Building_Hall.jpg', alt: 'Government Building Hall', category: 'Public Sector' },
+    { src: 'assets/images/Cozy_Dream_Home_Bedroom.jpg', alt: 'Cozy Dream Home Bedroom', category: 'Interior Decor' },
+    { src: 'assets/images/Sleek_kitchen_design.jpg', alt: 'Sleek Kitchen Design', category: 'Residential' },
   ];
   // projects = [
   //   { src: 'https://picsum.photos/seed/project1/800/600', alt: 'Modern Living Room' },
@@ -69,13 +69,56 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   currentTestimonialIndex = signal(0);
   private intervalId?: number;
+  private typeTimeoutId?: any;
+
+  heroTitle = signal('');
+  private titles = [
+    'Crafting Spaces, Building Dreams',
+    'Timeless Architecture & Design',
+    'Transforming Ideas into Reality',
+    'Bespoke Interiors for Modern Living'
+  ];
 
   ngOnInit() {
     this.startTestimonialSlider();
+    this.typeHeroTitle();
+  }
+
+  typeHeroTitle() {
+    let charIndex = 0;
+    let titleIndex = 0;
+    let isDeleting = false;
+
+    const type = () => {
+      const currentFullTitle = this.titles[titleIndex];
+      this.heroTitle.set(currentFullTitle.substring(0, charIndex));
+
+      let typeSpeed = 100;
+      if (isDeleting) {
+        typeSpeed = 50; // Delete faster
+      }
+
+      if (!isDeleting && charIndex === currentFullTitle.length) {
+        typeSpeed = 2000; // Pause at the end before deleting
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        titleIndex = (titleIndex + 1) % this.titles.length; // Move to next phrase
+        typeSpeed = 500; // Pause before typing again
+      }
+
+      charIndex = isDeleting ? charIndex - 1 : charIndex + 1;
+      this.typeTimeoutId = setTimeout(type, typeSpeed);
+    };
+
+    type();
   }
 
   ngOnDestroy() {
     clearInterval(this.intervalId);
+    if (this.typeTimeoutId) {
+      clearTimeout(this.typeTimeoutId);
+    }
   }
 
   // ngAfterViewInit(): void {
@@ -97,6 +140,10 @@ export class HomeComponent implements OnInit, OnDestroy {
   //     // marquee.style.animationDuration =`${Math.round(speedFactor * 10)}s`;
   //   }
   // }
+
+  scrollDown() {
+    window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+  }
 
   startTestimonialSlider() {
     this.intervalId = window.setInterval(() => {
