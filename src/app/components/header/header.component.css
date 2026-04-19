@@ -1,5 +1,2 @@
-@media(max-width:768px){
-    .org_name{
-        display: none;
-    }
-}
+/* Header v1 used .org_name to hide the brand name on small screens.
+   v2 uses a two-line stacked logo visible on all sizes — no CSS override needed. */

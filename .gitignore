@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 .angular
 .angular/*
-.angular/cache
+.angular/cache/*

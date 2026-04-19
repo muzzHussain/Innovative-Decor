@@ -1,3 +1,8 @@
+<!-- ============================================================
+     HEADER v1 — Original Design (commented out)
+     Simple glassmorphism bar, inline mobile dropdown,
+     org name hidden via CSS on small screens.
+     ============================================================
 <header class="bg-white/40 dark:bg-stone-900/60 backdrop-blur-[6px] sticky top-0 z-50 shadow-md transition-colors duration-300">
   <nav class="container mx-auto px-6 py-4">
     <div class="flex items-center justify-between">
@@ -5,8 +10,6 @@
         <img src="assets/images/favicon2.png" alt="Innovative Decor Logo" class="h-10 w-auto object-contain">
         <span class="org_name text-2xl lg:text-3xl sm:text-lg">INNOVATIVE DECOR</span>
       </a>
-
-      <!-- Desktop Menu -->
       <div class="hidden md:flex items-center space-x-8">
         @for (link of navLinks; track link.path) {
           <a [routerLink]="link.path"
@@ -16,8 +19,6 @@
             {{ link.label }}
           </a>
         }
-        
-        <!-- Theme Toggle Desktop -->
         <button (click)="toggleTheme()" class="ml-4 p-2 rounded-full hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-600 dark:text-stone-300 transition-colors">
           @if (isDarkMode()) {
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
@@ -26,10 +27,7 @@
           }
         </button>
       </div>
-
-      <!-- Mobile Menu Button & Theme Toggle -->
       <div class="md:hidden flex items-center space-x-4">
-        <!-- Theme Toggle Mobile -->
         <button (click)="toggleTheme()" class="p-2 rounded-full text-stone-600 hover:bg-stone-100 dark:text-stone-300 dark:hover:bg-stone-800 transition-colors">
           @if (isDarkMode()) {
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
@@ -38,7 +36,7 @@
           }
         </button>
         <button (click)="toggleMenu()" class="text-stone-800 dark:text-stone-200 focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             @if (!isMenuOpen()) {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             } @else {
@@ -48,8 +46,6 @@
         </button>
       </div>
     </div>
-
-    <!-- Mobile Menu -->
     @if (isMenuOpen()) {
       <div class="md:hidden mt-4 animate-fade-in-down">
         <div class="flex flex-col space-y-4">
@@ -66,4 +62,279 @@
       </div>
     }
   </nav>
+</header>
+-->
+
+<!-- ============================================================
+     HEADER v2 — Scroll-aware Premium Design (current)
+     - Transparent at top, glass + shadow when scrolled
+     - Stacked two-line logo (no CSS hack to hide on mobile)
+     - Underline-slide animated nav links with amber active state
+     - "Get In Touch" CTA pill on desktop
+     - Mobile: full-width dropdown with chevron rows + CTA
+     - @HostListener scroll detection drives isScrolled signal
+     ============================================================ -->
+<header
+  [class]="
+    'sticky top-0 z-50 transition-all duration-500 ' +
+    (isScrolled()
+      ? 'bg-transparent pt-2'
+      : 'bg-white/20 dark:bg-stone-900/40 backdrop-blur-[6px]')
+  "
+>
+  <!-- Thin amber gradient accent line — only when at top -->
+  @if (!isScrolled()) {
+    <div
+      class="h-[2px] bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-70"
+    ></div>
+  }
+
+  <nav
+    [class]="
+      'transition-all duration-500 ' +
+      (isScrolled()
+        ? 'mx-3 md:mx-auto max-w-5xl px-4 md:px-6 py-2.5 mt-4 bg-white/60 dark:bg-stone-900/60 backdrop-blur-xl rounded-2xl shadow-xl shadow-stone-900/10 dark:shadow-stone-950/50'
+        : 'container mx-auto px-5 md:px-8 py-3.5')
+    "
+  >
+    <div class="flex items-center justify-between gap-4">
+      <!-- ── Logo ── -->
+      <a
+        routerLink="/"
+        (click)="closeMenu()"
+        class="flex items-center gap-3 group flex-shrink-0"
+      >
+        <!-- Logo icon with hover glow -->
+        <div class="relative">
+          <img
+            src="assets/images/favicon2.png"
+            alt="Innovative Decor Logo"
+            class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+          />
+          <div
+            class="absolute inset-0 rounded-full bg-amber-500/25 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+          ></div>
+        </div>
+        <!-- Two-line stacked wordmark — visible on all screen sizes -->
+        <div class="flex flex-col leading-none">
+          <span
+            class="font-bold font-serif text-stone-900 dark:text-white tracking-[0.15em] text-sm sm:text-base lg:text-lg transition-colors duration-300"
+          >
+            INNOVATIVE
+          </span>
+          <span
+            class="font-light font-serif text-amber-600 dark:text-amber-500 tracking-[0.35em] text-[9px] sm:text-[10px] uppercase transition-colors duration-300"
+          >
+            Decor
+          </span>
+        </div>
+      </a>
+
+      <!-- ── Desktop Navigation ── -->
+      <div class="hidden md:flex items-center gap-1 lg:gap-2">
+        @for (link of navLinks; track link.path) {
+          <a
+            [routerLink]="link.path"
+            routerLinkActive="bg-amber-600 !text-white dark:bg-amber-500 dark:!text-stone-900 shadow-md shadow-amber-500/30 hover:!text-white"
+            [routerLinkActiveOptions]="{ exact: link.path === '/' }"
+            class="relative px-4 py-2 rounded-full text-sm font-medium text-stone-600 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 transition-all duration-300 group"
+          >
+            {{ link.label }}
+            <!-- Underline slide-in on hover (only visible when not active) -->
+            <span
+              class="absolute bottom-0 left-4 right-4 h-px bg-amber-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
+            ></span>
+          </a>
+        }
+
+        <!-- Divider -->
+        <div class="w-px h-5 bg-stone-200 dark:bg-stone-700 mx-1 lg:mx-2"></div>
+
+        <!-- Theme toggle -->
+        <button
+          (click)="toggleTheme()"
+          class="w-9 h-9 rounded-full flex items-center justify-center text-stone-500 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 hover:text-amber-600 dark:hover:text-amber-400 transition-all duration-300"
+          [attr.aria-label]="
+            isDarkMode() ? 'Switch to light mode' : 'Switch to dark mode'
+          "
+        >
+          @if (isDarkMode()) {
+            <!-- Sun icon -->
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+              />
+            </svg>
+          } @else {
+            <!-- Moon icon -->
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          }
+        </button>
+
+        <!-- CTA pill -->
+        <a
+          routerLink="/contact"
+          class="ml-1 flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white text-sm font-semibold py-2 px-5 rounded-full transition-all duration-300 hover:shadow-[0_0_22px_rgba(217,119,6,0.45)] hover:scale-105"
+        >
+          Get In Touch
+        </a>
+      </div>
+
+      <!-- ── Mobile Controls ── -->
+      <div class="md:hidden flex items-center gap-1">
+        <!-- Theme toggle mobile -->
+        <button
+          (click)="toggleTheme()"
+          class="w-9 h-9 rounded-full flex items-center justify-center text-stone-500 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors duration-300"
+          [attr.aria-label]="
+            isDarkMode() ? 'Switch to light mode' : 'Switch to dark mode'
+          "
+        >
+          @if (isDarkMode()) {
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+              />
+            </svg>
+          } @else {
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              />
+            </svg>
+          }
+        </button>
+
+        <!-- Hamburger / X button -->
+        <button
+          (click)="toggleMenu()"
+          class="w-9 h-9 rounded-full flex items-center justify-center text-stone-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800 transition-all duration-300 focus:outline-none"
+          [attr.aria-label]="isMenuOpen() ? 'Close menu' : 'Open menu'"
+        >
+          <svg
+            class="w-5 h-5 transition-transform duration-300"
+            [class.rotate-90]="isMenuOpen()"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            @if (!isMenuOpen()) {
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            } @else {
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            }
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- end flex row -->
+  </nav>
+
+  <!-- ── Mobile Dropdown Menu ── -->
+  @if (isMenuOpen()) {
+    <div
+      [class]="
+        'md:hidden border-t border-stone-100 dark:border-stone-800 bg-white/60 dark:bg-stone-900/60 backdrop-blur-xl animate-fade-in-down ' +
+        (isScrolled()
+          ? 'mx-3 rounded-b-2xl shadow-xl shadow-stone-900/10 dark:shadow-stone-950/50'
+          : '')
+      "
+    >
+      <div class="px-5 py-4 flex flex-col gap-1">
+        @for (link of navLinks; track link.path) {
+          <a
+            [routerLink]="link.path"
+            routerLinkActive="!border-amber-500 !text-amber-600 dark:!text-amber-400 bg-amber-50 dark:bg-amber-900/20 font-semibold"
+            [routerLinkActiveOptions]="{ exact: link.path === '/' }"
+            (click)="closeMenu()"
+            class="flex items-center justify-between px-4 py-3.5 rounded-xl text-stone-700 dark:text-stone-300 hover:bg-stone-50 dark:hover:bg-stone-800 hover:text-amber-600 dark:hover:text-amber-400 transition-all duration-200 font-medium text-[15px] border-l-[3px] border-transparent"
+          >
+            <span>{{ link.label }}</span>
+            <!-- Chevron — inherits amber color from routerLinkActive on parent -->
+            <svg
+              class="w-4 h-4 opacity-30"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </a>
+        }
+
+        <!-- Mobile CTA -->
+        <a
+          routerLink="/contact"
+          (click)="closeMenu()"
+          class="mt-3 flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold py-3.5 px-6 rounded-full transition-all duration-300 text-[15px]"
+        >
+          Get In Touch
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  }
 </header>
