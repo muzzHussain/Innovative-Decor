@@ -3,13 +3,14 @@ import { isPlatformBrowser } from "@angular/common";
 import { Router, RouterOutlet, NavigationEnd } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CursorComponent } from './components/cursor/cursor.component';
 import { filter, take } from 'rxjs/operators'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, CursorComponent],
 })
 export class AppComponent {
   isLoaded=signal(false);
