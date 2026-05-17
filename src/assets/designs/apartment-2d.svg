@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <defs>
+    <pattern id="hatch" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="660" fill="#ffffff"/>
+  <!-- Title block -->
+  <rect x="0" y="0" width="900" height="660" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="10" y="10" width="880" height="640" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+  <!-- Title -->
+  <text x="450" y="635" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="3">LUXURY APARTMENT  //  ARCHITECTURAL FLOOR PLAN  //  SCALE 1:50</text>
+
+  <!-- PLAN TITLE -->
+  <text x="450" y="52" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">FLOOR PLAN</text>
+  <line x1="350" y1="56" x2="550" y2="56" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- WALLS (thick, with hatch fill) -->
+  <!-- Outer wall (8px thick, filled with hatch pattern) -->
+  <!-- Top wall -->
+  <rect x="145" y="85" width="635" height="14" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Bottom wall -->
+  <rect x="145" y="573" width="635" height="14" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Left wall -->
+  <rect x="145" y="85" width="14" height="502" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Right wall -->
+  <rect x="766" y="85" width="14" height="502" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Internal walls (thinner, also hatched) -->
+  <!-- Vertical: living | rest -->
+  <rect x="378" y="85" width="10" height="502" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Horizontal: kitchen/bath from lower -->
+  <rect x="378" y="275" width="402" height="10" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Vertical: kitchen | bath -->
+  <rect x="578" y="85" width="10" height="204" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Horizontal: foyer | bedroom -->
+  <rect x="378" y="415" width="402" height="10" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Vertical: foyer | wardrobe -->
+  <rect x="578" y="275" width="10" height="154" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- ROOM NAME LABELS (inside rooms, centered) -->
+  <text x="262" y="338" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Living Room</text>
+  <text x="478" y="185" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Kitchen</text>
+  <text x="672" y="185" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Bathroom</text>
+  <text x="478" y="352" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Foyer</text>
+  <text x="672" y="352" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Wardrobe</text>
+  <text x="574" y="502" font-family="Arial,sans-serif" font-size="11" fill="#333333" text-anchor="middle">Master Bedroom</text>
+
+  <!-- DOOR SYMBOLS -->
+  <!-- Front door (living room south) -->
+  <line x1="199" y1="573" x2="264" y2="573" stroke="#ffffff" stroke-width="10"/>
+  <line x1="199" y1="573" x2="199" y2="575" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="264" y1="573" x2="264" y2="575" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 199,573 Q 199,508 264,508" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="199" y1="573" x2="264" y2="573" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Kitchen door -->
+  <line x1="378" y1="135" x2="378" y2="195" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 385,135 Q 445,135 445,193" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="385" y1="135" x2="385" y2="193" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Bathroom door -->
+  <line x1="578" y1="275" x2="638" y2="275" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 578,282 Q 578,222 636,222" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="578" y1="282" x2="636" y2="282" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Bedroom door -->
+  <line x1="378" y1="435" x2="378" y2="490" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 385,435 Q 440,435 440,488" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="385" y1="435" x2="440" y2="435" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- WINDOW SYMBOLS on outer walls -->
+  <!-- Living room window (top wall) -->
+  <line x1="200" y1="85" x2="340" y2="85" stroke="#ffffff" stroke-width="10"/>
+  <line x1="200" y1="87" x2="340" y2="87" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="200" y1="91" x2="340" y2="91" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="200" y1="95" x2="340" y2="95" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- Bedroom window (right wall) -->
+  <line x1="766" y1="450" x2="766" y2="545" stroke="#ffffff" stroke-width="10"/>
+  <line x1="768" y1="450" x2="768" y2="545" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="772" y1="450" x2="772" y2="545" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="776" y1="450" x2="776" y2="545" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- DIMENSION LINES -->
+  <!-- Overall width (top) -->
+  <line x1="145" y1="72" x2="780" y2="72" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="149,72 145,68 145,76" fill="#1a1a1a"/>
+  <polygon points="776,72 780,68 780,76" fill="#1a1a1a"/>
+  <line x1="145" y1="65" x2="145" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="780" y1="65" x2="780" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="462" y="68" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">12750 mm</text>
+
+  <!-- Overall height (right) -->
+  <line x1="796" y1="85" x2="796" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="796,89 792,85 800,85" fill="#1a1a1a"/>
+  <polygon points="796,583 792,587 800,587" fill="#1a1a1a"/>
+  <line x1="789" y1="85" x2="804" y2="85" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="789" y1="587" x2="804" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="812" y="340" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" transform="rotate(90,812,340)">10000 mm</text>
+
+  <!-- Living room width -->
+  <line x1="159" y1="606" x2="383" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="163,606 159,602 159,610" fill="#1a1a1a"/>
+  <polygon points="379,606 383,602 383,610" fill="#1a1a1a"/>
+  <text x="271" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">4500 mm</text>
+
+  <!-- Kitchen width -->
+  <line x1="388" y1="606" x2="592" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="392,606 388,602 388,610" fill="#1a1a1a"/>
+  <polygon points="588,606 592,602 592,610" fill="#1a1a1a"/>
+  <text x="490" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">4000 mm</text>
+
+  <!-- Bath+wardrobe width -->
+  <line x1="592" y1="606" x2="780" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="596,606 592,602 592,610" fill="#1a1a1a"/>
+  <polygon points="776,606 780,602 780,610" fill="#1a1a1a"/>
+  <text x="686" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">3750 mm</text>
+
+  <!-- scale bar -->
+  <line x1="20" y1="622" x2="120" y2="622" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="20" y="618" width="50" height="4" fill="#1a1a1a"/>
+  <rect x="70" y="618" width="50" height="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="20" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="70" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">2.5m</text>
+  <text x="120" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">5m</text>
+</svg>

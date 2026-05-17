@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <rect width="900" height="660" fill="#111111"/>
+  <text x="32" y="52" font-family="Georgia,serif" font-size="30" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">Layout.</text>
+  <text x="32" y="72" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" letter-spacing="3">MODULAR KITCHEN</text>
+
+  <!-- outer wall -->
+  <rect x="170" y="88" width="570" height="484" fill="#1c1c1c" stroke="#ccc6bc" stroke-width="9" stroke-linejoin="miter"/>
+
+  <!-- internal: pantry top-right -->
+  <line x1="560" y1="88" x2="560" y2="240" stroke="#ccc6bc" stroke-width="6"/>
+  <line x1="560" y1="240" x2="740" y2="240" stroke="#ccc6bc" stroke-width="6"/>
+
+  <!-- fills -->
+  <rect x="174" y="92" width="382" height="476" fill="#1d1d1d"/>
+  <rect x="564" y="92" width="172" height="144" fill="#1a1a1a"/>
+  <rect x="564" y="244" width="172" height="324" fill="#1c1c1c"/>
+
+  <!-- L-SHAPE COUNTER along top + right -->
+  <!-- top counter -->
+  <rect x="182" y="100" width="474" height="40" rx="2" fill="#282828" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- right side counter -->
+  <rect x="700" y="100" width="32" height="476" rx="2" fill="#282828" stroke="#3a3a3a" stroke-width="1.5"/>
+
+  <!-- APPLIANCES on top counter -->
+  <!-- Stove (center-top) -->
+  <rect x="280" y="103" width="85" height="34" rx="3" fill="#2c2c2c" stroke="#404040" stroke-width="1"/>
+  <circle cx="297" cy="112" r="7" fill="none" stroke="#555" stroke-width="1.8"/>
+  <circle cx="323" cy="112" r="7" fill="none" stroke="#555" stroke-width="1.8"/>
+  <circle cx="297" cy="128" r="7" fill="none" stroke="#555" stroke-width="1.8"/>
+  <circle cx="323" cy="128" r="7" fill="none" stroke="#555" stroke-width="1.8"/>
+  <!-- Oven (left) -->
+  <rect x="190" y="103" width="72" height="34" rx="3" fill="#242424" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="198" y="110" width="56" height="20" rx="2" fill="#1e1e1e"/>
+  <!-- Sink (right of stove) -->
+  <rect x="390" y="103" width="72" height="34" rx="3" fill="#222222"/>
+  <rect x="396" y="108" width="27" height="24" rx="2" fill="#1e1e1e"/>
+  <rect x="428" y="108" width="27" height="24" rx="2" fill="#1e1e1e"/>
+  <circle cx="410" cy="120" r="5" fill="none" stroke="#444" stroke-width="1.5"/>
+  <circle cx="441" cy="120" r="5" fill="none" stroke="#444" stroke-width="1.5"/>
+  <!-- Refrigerator (far right of top counter) -->
+  <rect x="480" y="100" width="72" height="62" rx="3" fill="#242424" stroke="#3c3c3c" stroke-width="1.5"/>
+  <line x1="516" y1="100" x2="516" y2="162" stroke="#333" stroke-width="1"/>
+  <circle cx="510" cy="132" r="4" fill="#2e2e2e"/>
+  <circle cx="522" cy="132" r="4" fill="#2e2e2e"/>
+
+  <!-- KITCHEN ISLAND (center) -->
+  <rect x="240" y="250" width="310" height="130" rx="8" fill="#252525" stroke="#393939" stroke-width="2"/>
+  <!-- Island countertop detail -->
+  <rect x="240" y="250" width="310" height="12" rx="8" fill="#2e2e2e" stroke="#404040" stroke-width="1"/>
+  <!-- Bar stools (bottom of island) -->
+  <circle cx="276" cy="402" r="18" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="336" cy="402" r="18" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="396" cy="402" r="18" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="456" cy="402" r="18" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="516" cy="402" r="18" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <!-- Pendant lights above island (viewed from above as circles) -->
+  <circle cx="310" cy="315" r="8" fill="none" stroke="#c8b468" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <circle cx="395" cy="315" r="8" fill="none" stroke="#c8b468" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <circle cx="480" cy="315" r="8" fill="none" stroke="#c8b468" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+  <!-- Bottom counter / dining prep area -->
+  <rect x="182" y="540" width="510" height="30" rx="2" fill="#282828" stroke="#3a3a3a" stroke-width="1.5"/>
+  <!-- Cabinet lines on bottom counter -->
+  <line x1="252" y1="540" x2="252" y2="570" stroke="#333" stroke-width="1"/>
+  <line x1="322" y1="540" x2="322" y2="570" stroke="#333" stroke-width="1"/>
+  <line x1="392" y1="540" x2="392" y2="570" stroke="#333" stroke-width="1"/>
+  <line x1="462" y1="540" x2="462" y2="570" stroke="#333" stroke-width="1"/>
+  <line x1="532" y1="540" x2="532" y2="570" stroke="#333" stroke-width="1"/>
+  <line x1="622" y1="540" x2="622" y2="570" stroke="#333" stroke-width="1"/>
+
+  <!-- PANTRY (top-right) -->
+  <rect x="572" y="100" width="120" height="130" rx="3" fill="#181818" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="580" y1="120" x2="684" y2="120" stroke="#252525" stroke-width="1.5"/>
+  <line x1="580" y1="142" x2="684" y2="142" stroke="#252525" stroke-width="1.5"/>
+  <line x1="580" y1="164" x2="684" y2="164" stroke="#252525" stroke-width="1.5"/>
+  <line x1="580" y1="186" x2="684" y2="186" stroke="#252525" stroke-width="1.5"/>
+  <line x1="580" y1="208" x2="684" y2="208" stroke="#252525" stroke-width="1.5"/>
+
+  <!-- WINE/BEVERAGE AREA (bottom-right) -->
+  <rect x="572" y="408" width="120" height="155" rx="4" fill="#1e1e1e" stroke="#2c2c2c" stroke-width="1.5"/>
+  <rect x="580" y="416" width="104" height="38" rx="2" fill="#232323"/>
+  <rect x="580" y="460" width="104" height="38" rx="2" fill="#232323"/>
+  <rect x="580" y="504" width="104" height="38" rx="2" fill="#232323"/>
+  <line x1="632" y1="416" x2="632" y2="542" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- door swing -->
+  <rect x="164" y="380" width="10" height="70" fill="#111111"/>
+  <path d="M 169,380 Q 237,380 237,444" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+
+  <!-- LABELS -->
+  <text x="252" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Kitchen Counter</text>
+  <line x1="340" y1="72" x2="340" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="340" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="296" y="635" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Kitchen Island</text>
+  <line x1="368" y1="630" x2="395" y2="580" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="395" cy="580" r="2.5" fill="#ccc6bc"/>
+
+  <text x="604" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Pantry</text>
+  <line x1="632" y1="72" x2="632" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="632" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="760" y="496" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Wine Rack</text>
+  <line x1="758" y1="493" x2="740" y2="480" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="740" cy="480" r="2.5" fill="#ccc6bc"/>
+
+  <!-- scale bar -->
+  <line x1="180" y1="620" x2="380" y2="620" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="180" y1="614" x2="180" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="280" y1="614" x2="280" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="380" y1="614" x2="380" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <text x="180" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">0</text>
+  <text x="280" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">3m</text>
+  <text x="380" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">6m</text>
+</svg>

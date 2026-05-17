@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <!-- Dark background -->
+  <rect width="900" height="660" fill="#0f0e0d"/>
+
+  <!-- ===== ROOM BOX (isometric: 5w x 4d x 3h @ 45px/m, origin 440,380) ===== -->
+  <!-- floor: near(0,0,0) right(5,0,0) far-right(5,4,0) far-left(0,4,0) -->
+  <polygon points="440,380 635,492 479,582 284,470" fill="#c4bdb4" stroke="#9a9088" stroke-width="0.5"/>
+  <!-- floor planks -->
+  <line x1="421,416" x2="416,402" stroke="#b8b1a8" stroke-width="0.8" opacity="0.5"/>
+  <line x1="362,440" y1="440" x2="557,552" stroke="#b8b1a8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="323,455" y1="455" x2="518,567" stroke="#b8b1a8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="453,416" y1="416" x2="648,528" stroke="#b8b1a8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="493,432" y1="432" x2="550,552" stroke="#b8b1a8" stroke-width="0.8" opacity="0.4"/>
+  <line x1="400,400" y1="400" x2="595,512" stroke="#b8b1a8" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- left wall: (0,0,0)-(0,4,0)-(0,4,3)-(0,0,3) -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#d8d2ca"/>
+  <!-- left wall lines -->
+  <line x1="440" y1="290" x2="284" y2="380" stroke="#c4bdb4" stroke-width="0.6" opacity="0.5"/>
+  <line x1="440" y1="335" x2="284" y2="425" stroke="#c4bdb4" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- back wall: (0,0,0)-(5,0,0)-(5,0,3)-(0,0,3) -->
+  <polygon points="440,380 635,492 635,357 440,245" fill="#e8e2da"/>
+  <!-- back wall subtle lines -->
+  <line x1="440" y1="290" x2="635" y2="402" stroke="#d8d2ca" stroke-width="0.6" opacity="0.5"/>
+  <line x1="440" y1="335" x2="635" y2="447" stroke="#d8d2ca" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- ceiling -->
+  <polygon points="440,245 635,357 479,447 284,335" fill="#f0ece8" opacity="0.4"/>
+
+  <!-- ===== FURNITURE ===== -->
+  <!-- Rug (floor level, lighter polygon) -->
+  <polygon points="421,414 577,504 499,549 343,459" fill="#a89880" opacity="0.6"/>
+
+  <!-- TV WALL UNIT (back wall, x=1.5-3.5, z=0.1, h=0.5) -->
+  <!-- front face of unit -->
+  <polygon points="495,393 573,439 573,416 495,370" fill="#1e1a16"/>
+  <!-- top of unit -->
+  <polygon points="495,370 573,416 561,423 483,377" fill="#2a2520"/>
+  <!-- right side of unit -->
+  <polygon points="573,439 561,446 561,423 573,416" fill="#141210"/>
+  <!-- TV screen -->
+  <polygon points="500,392 568,435 568,375 500,332" fill="#0a0a0a"/>
+  <polygon points="505,388 563,429 563,379 505,338" fill="#141a24" opacity="0.8"/>
+  <!-- TV screen glow -->
+  <polygon points="510,386 558,414 558,383 510,355" fill="#1a2840" opacity="0.7"/>
+
+  <!-- FLOATING SHELVES (left wall, x=0, z=0.5-2.5, y=1.2-2.2) -->
+  <!-- shelf 1 -->
+  <polygon points="440,290 362,332 362,325 440,283" fill="#3a3028"/>
+  <polygon points="440,283 362,325 350,318 438,276" fill="#4a4038"/>
+  <!-- shelf objects -->
+  <polygon points="438,278 430,282 430,268 438,264" fill="#7a5a3a"/>
+  <polygon points="430,282 422,286 422,270 430,274" fill="#5a7a4a"/>
+  <polygon points="422,286 414,290 414,277 422,283" fill="#6a4a5a"/>
+  <!-- shelf 2 -->
+  <polygon points="440,322 362,364 362,357 440,315" fill="#3a3028"/>
+  <polygon points="440,315 362,357 350,350 438,308" fill="#4a4038"/>
+  <!-- decorative object on shelf 2 -->
+  <ellipse cx="428" cy="312" rx="8" ry="5" fill="#8a7a5a" transform="rotate(-15,428,312)"/>
+
+  <!-- L-SHAPE SOFA (x=0.8-3.5, z=1.5-2.3, h=0.75) -->
+  <!-- main body front face -->
+  <polygon points="452,438 545,490 545,458 452,406" fill="#2c2820"/>
+  <!-- main body right face -->
+  <polygon points="545,490 514,506 514,474 545,458" fill="#1e1c18"/>
+  <!-- main body top (seat) -->
+  <polygon points="452,406 545,458 514,474 421,422" fill="#383028"/>
+  <!-- sofa backrest -->
+  <polygon points="452,406 545,458 545,426 452,374" fill="#322c24"/>
+  <!-- backrest top -->
+  <polygon points="452,374 545,426 514,442 421,390" fill="#3c3428"/>
+  <!-- chaise extension (x=0.8-1.6, z=2.3-3.2) -->
+  <polygon points="452,438 421,454 421,422 452,406" fill="#242018"/>
+  <polygon points="421,454 390,470 390,438 421,422" fill="#1e1c18"/>
+  <polygon points="452,406 421,422 390,438 421,390" fill="#2e2820"/>
+  <!-- sofa cushion details -->
+  <polygon points="460,406 520,438 520,414 460,382" fill="#3a3228" opacity="0.8"/>
+  <polygon points="460,382 520,414 508,420 448,388" fill="#3e362c" opacity="0.8"/>
+  <!-- armrest left -->
+  <polygon points="452,438 440,444 440,420 452,414" fill="#2a2620"/>
+  <polygon points="452,414 440,420 440,412 452,406" fill="#342e28"/>
+
+  <!-- COFFEE TABLE (x=2.0-3.2, z=1.0-1.5, h=0.35) -->
+  <!-- front face -->
+  <polygon points="479,448 526,474 526,458 479,432" fill="#5a4a38"/>
+  <!-- right face -->
+  <polygon points="526,474 510,482 510,466 526,458" fill="#4a3a2c"/>
+  <!-- top -->
+  <polygon points="479,432 526,458 510,466 463,440" fill="#6a5844"/>
+  <!-- coffee table glass top (lighter) -->
+  <polygon points="481,430 524,454 508,462 465,438" fill="#7a6854" opacity="0.7"/>
+  <!-- table objects -->
+  <ellipse cx="496" cy="444" rx="7" ry="4" fill="#8a7860" transform="rotate(-30,496,444)"/>
+
+  <!-- FLOOR LAMP (x=4.5, z=3.5, h=0-1.8) -->
+  <line x1="531" y1="560" x2="531" y2="474" stroke="#5a5048" stroke-width="3"/>
+  <ellipse cx="531" cy="472" rx="14" ry="8" fill="#d4b858" opacity="0.9"/>
+  <ellipse cx="531" cy="474" rx="14" ry="8" fill="#c0a040" opacity="0.7"/>
+  <!-- light glow -->
+  <ellipse cx="531" cy="440" rx="40" ry="25" fill="#d4b858" opacity="0.08"/>
+
+  <!-- PENDANT LIGHT (ceiling center) -->
+  <line x1="520" y1="357" x2="520" y2="382" stroke="#5a5048" stroke-width="1.5"/>
+  <ellipse cx="520" cy="384" rx="18" ry="10" fill="#c8a848"/>
+  <ellipse cx="520" cy="386" rx="18" ry="10" fill="#b09030" opacity="0.8"/>
+  <ellipse cx="520" cy="360" rx="30" ry="16" fill="#d4b858" opacity="0.05"/>
+
+  <!-- PLANT (far-left corner) -->
+  <ellipse cx="296" cy="455" rx="18" ry="12" fill="#2a4228" opacity="0.9"/>
+  <ellipse cx="289" cy="442" rx="14" ry="10" fill="#344e30"/>
+  <ellipse cx="302" cy="440" rx="12" ry="9" fill="#3a5634"/>
+  <rect x="290" y="455" width="10" height="18" rx="3" fill="#6a4a30"/>
+
+  <!-- Wall edges (outlines) -->
+  <line x1="440" y1="380" x2="440" y2="245" stroke="#786e64" stroke-width="1.5"/>
+  <line x1="635" y1="492" x2="635" y2="357" stroke="#786e64" stroke-width="1"/>
+  <line x1="284" y1="470" x2="284" y2="335" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="245" x2="635" y2="357" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="245" x2="284" y2="335" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="380" x2="635" y2="492" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#786e64" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ccc6bc" text-anchor="middle" letter-spacing="4">3D VIEW  //  LUXURY APARTMENT  //  LIVING ROOM</text>
+  <line x1="220" y1="628" x2="680" y2="628" stroke="#5a5048" stroke-width="0.8"/>
+</svg>

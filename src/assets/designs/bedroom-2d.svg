@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <defs>
+    <pattern id="hatch5" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="660" fill="#ffffff"/>
+  <rect x="0" y="0" width="900" height="660" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="10" y="10" width="880" height="640" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="450" y="635" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="3">MASTER BEDROOM SUITE  //  ARCHITECTURAL FLOOR PLAN  //  SCALE 1:25</text>
+  <text x="450" y="52" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">BEDROOM PLAN</text>
+  <line x1="350" y1="56" x2="550" y2="56" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- OUTER WALLS -->
+  <rect x="130" y="85" width="660" height="14" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="130" y="573" width="660" height="14" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="130" y="85" width="14" height="502" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="776" y="85" width="14" height="502" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- En-suite bathroom partition -->
+  <rect x="555" y="85" width="10" height="210" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="555" y="285" width="235" height="10" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Walk-in wardrobe partition -->
+  <rect x="555" y="285" width="10" height="302" fill="url(#hatch5)" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- ROOM LABELS -->
+  <text x="342" y="340" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Sleeping Area</text>
+  <text x="665" y="195" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">En-suite Bath</text>
+  <text x="665" y="435" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Walk-in</text>
+  <text x="665" y="449" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Wardrobe</text>
+
+  <!-- KING BED (centered in sleeping area) -->
+  <rect x="196" y="235" width="198" height="248" rx="6" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Headboard -->
+  <rect x="196" y="235" width="198" height="20" rx="6" fill="none" stroke="#888" stroke-width="1"/>
+  <!-- Pillows -->
+  <rect x="210" y="260" width="72" height="40" rx="6" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="308" y="260" width="72" height="40" rx="6" fill="none" stroke="#888" stroke-width="1"/>
+  <!-- Bedside tables -->
+  <rect x="150" y="258" width="42" height="46" rx="4" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="398" y="258" width="42" height="46" rx="4" fill="none" stroke="#888" stroke-width="1"/>
+
+  <!-- DRESSING TABLE -->
+  <rect x="452" y="182" width="90" height="52" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <circle cx="497" cy="260" r="20" fill="none" stroke="#888" stroke-width="1.2"/>
+
+  <!-- TV UNIT (south wall) -->
+  <rect x="148" y="527" width="392" height="26" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <rect x="165" y="496" width="240" height="30" rx="2" fill="none" stroke="#888" stroke-width="1"/>
+
+  <!-- EN-SUITE BATHROOM -->
+  <rect x="693" y="99" width="74" height="88" rx="5" fill="none" stroke="#888" stroke-width="1.5"/>
+  <ellipse cx="730" cy="171" rx="26" ry="20" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="566" y="99" width="55" height="40" rx="5" fill="none" stroke="#888" stroke-width="1.5"/>
+  <circle cx="594" cy="119" r="9" fill="none" stroke="#aaa" stroke-width="1.2"/>
+  <rect x="566" y="152" width="84" height="116" rx="4" fill="none" stroke="#888" stroke-width="1.5"/>
+  <circle cx="622" cy="198" r="15" fill="none" stroke="#aaa" stroke-width="1.2"/>
+
+  <!-- WALK-IN WARDROBE -->
+  <!-- Hanging sections -->
+  <rect x="566" y="300" width="90" height="256" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <line x1="566" y1="358" x2="656" y2="358" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="566" y1="416" x2="656" y2="416" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="566" y1="474" x2="656" y2="474" stroke="#aaa" stroke-width="1.2"/>
+  <!-- Shelving section -->
+  <rect x="665" y="300" width="100" height="256" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <line x1="665" y1="342" x2="765" y2="342" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="665" y1="384" x2="765" y2="384" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="665" y1="426" x2="765" y2="426" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="665" y1="468" x2="765" y2="468" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="665" y1="510" x2="765" y2="510" stroke="#aaa" stroke-width="1.2"/>
+
+  <!-- DOOR SYMBOLS -->
+  <!-- Bedroom entrance door -->
+  <line x1="130" y1="165" x2="130" y2="228" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 137,165 Q 198,165 198,226" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="137" y1="165" x2="137" y2="226" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Bathroom door -->
+  <line x1="632" y1="285" x2="690" y2="285" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 632,292 Q 632,238 688,238" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="632" y1="292" x2="688" y2="292" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Wardrobe door -->
+  <line x1="555" y1="350" x2="555" y2="406" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 562,350 Q 618,350 618,406" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="562" y1="350" x2="562" y2="406" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- WINDOWS -->
+  <!-- Top wall window (bedroom) -->
+  <line x1="200" y1="85" x2="360" y2="85" stroke="#ffffff" stroke-width="10"/>
+  <line x1="200" y1="87" x2="360" y2="87" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="200" y1="91" x2="360" y2="91" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="200" y1="95" x2="360" y2="95" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- DIMENSION LINES -->
+  <line x1="130" y1="72" x2="790" y2="72" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="134,72 130,68 130,76" fill="#1a1a1a"/>
+  <polygon points="786,72 790,68 790,76" fill="#1a1a1a"/>
+  <line x1="130" y1="65" x2="130" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="790" y1="65" x2="790" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="460" y="68" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">6600 mm</text>
+
+  <line x1="804" y1="85" x2="804" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="804,89 800,85 808,85" fill="#1a1a1a"/>
+  <polygon points="804,583 800,587 808,587" fill="#1a1a1a"/>
+  <line x1="797" y1="85" x2="812" y2="85" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="797" y1="587" x2="812" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="822" y="340" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" transform="rotate(90,822,340)">5020 mm</text>
+
+  <!-- Zone widths -->
+  <line x1="144" y1="606" x2="561" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="148,606 144,602 144,610" fill="#1a1a1a"/>
+  <polygon points="557,606 561,602 561,610" fill="#1a1a1a"/>
+  <text x="352" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">Sleeping Area: 4250 mm</text>
+
+  <line x1="565" y1="606" x2="780" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="569,606 565,602 565,610" fill="#1a1a1a"/>
+  <polygon points="776,606 780,602 780,610" fill="#1a1a1a"/>
+  <text x="672" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">Suite: 2150 mm</text>
+
+  <!-- scale bar -->
+  <line x1="20" y1="622" x2="120" y2="622" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="20" y="618" width="50" height="4" fill="#1a1a1a"/>
+  <rect x="70" y="618" width="50" height="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="20" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="70" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">1.25m</text>
+  <text x="120" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">2.5m</text>
+</svg>

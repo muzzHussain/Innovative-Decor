@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <rect width="900" height="660" fill="#111111"/>
+  <text x="32" y="52" font-family="Georgia,serif" font-size="30" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">Layout.</text>
+  <text x="32" y="72" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" letter-spacing="3">RESTAURANT &amp; BAR</text>
+
+  <!-- outer wall -->
+  <rect x="120" y="88" width="665" height="484" fill="#1c1c1c" stroke="#ccc6bc" stroke-width="9" stroke-linejoin="miter"/>
+
+  <!-- internal dividers -->
+  <!-- Kitchen zone (left strip) -->
+  <line x1="280" y1="88" x2="280" y2="572" stroke="#ccc6bc" stroke-width="6"/>
+  <!-- Bar counter zone (right strip) -->
+  <line x1="635" y1="88" x2="635" y2="572" stroke="#ccc6bc" stroke-width="6"/>
+  <!-- Storage (top-left corner) -->
+  <line x1="120" y1="248" x2="280" y2="248" stroke="#ccc6bc" stroke-width="6"/>
+
+  <!-- fills -->
+  <rect x="124" y="92" width="152" height="152" fill="#1a1a1a"/>
+  <!-- kitchen open -->
+  <rect x="124" y="248" width="152" height="320" fill="#1c1c1c"/>
+  <!-- dining area -->
+  <rect x="284" y="92" width="347" height="476" fill="#1d1d1d"/>
+  <!-- bar -->
+  <rect x="639" y="92" width="142" height="476" fill="#1b1b1b"/>
+
+  <!-- STORAGE (top-left) -->
+  <rect x="132" y="100" width="130" height="132" rx="3" fill="#181818" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="140" y1="118" x2="254" y2="118" stroke="#242424" stroke-width="1.5"/>
+  <line x1="140" y1="140" x2="254" y2="140" stroke="#242424" stroke-width="1.5"/>
+  <line x1="140" y1="162" x2="254" y2="162" stroke="#242424" stroke-width="1.5"/>
+  <line x1="140" y1="184" x2="254" y2="184" stroke="#242424" stroke-width="1.5"/>
+  <line x1="140" y1="206" x2="254" y2="206" stroke="#242424" stroke-width="1.5"/>
+  <line x1="140" y1="228" x2="254" y2="228" stroke="#242424" stroke-width="1.5"/>
+
+  <!-- KITCHEN COUNTER L-shape -->
+  <rect x="130" y="256" width="140" height="30" rx="2" fill="#262626" stroke="#393939" stroke-width="1.5"/>
+  <rect x="130" y="256" width="30" height="260" rx="2" fill="#262626" stroke="#393939" stroke-width="1.5"/>
+  <!-- stove -->
+  <rect x="145" y="260" width="48" height="26" rx="2" fill="#2c2c2c"/>
+  <circle cx="156" cy="267" r="5" fill="none" stroke="#555" stroke-width="1.5"/>
+  <circle cx="171" cy="267" r="5" fill="none" stroke="#555" stroke-width="1.5"/>
+  <circle cx="156" cy="279" r="5" fill="none" stroke="#555" stroke-width="1.5"/>
+  <circle cx="171" cy="279" r="5" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- sink -->
+  <rect x="145" y="300" width="35" height="26" rx="3" fill="#222222"/>
+  <circle cx="163" cy="313" r="7" fill="none" stroke="#444" stroke-width="1.5"/>
+  <!-- prep station -->
+  <rect x="145" y="344" width="120" height="45" rx="3" fill="#252525" stroke="#393939" stroke-width="1.5"/>
+  <!-- fridge -->
+  <rect x="145" y="502" width="120" height="60" rx="3" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <line x1="205" y1="502" x2="205" y2="562" stroke="#333" stroke-width="1"/>
+
+  <!-- DINING AREA - tables and chairs -->
+  <!-- Island / central dining table -->
+  <rect x="352" y="200" width="230" height="100" rx="6" fill="#232323" stroke="#363636" stroke-width="2"/>
+  <!-- Chairs around island -->
+  <rect x="362" y="182" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="412" y="182" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="462" y="182" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="512" y="182" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="362" y="302" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="412" y="302" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="462" y="302" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="512" y="302" width="40" height="16" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="334" y="214" width="16" height="72" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="584" y="214" width="16" height="72" rx="4" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- Small round tables (scattered) -->
+  <!-- table 1 -->
+  <circle cx="335" cy="440" r="32" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <rect x="314" y="402" width="42" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="314" y="468" width="42" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="296" y="424" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="360" y="424" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <!-- table 2 -->
+  <circle cx="466" cy="450" r="32" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <rect x="445" y="412" width="42" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="445" y="478" width="42" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="426" y="434" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="492" y="434" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <!-- table 3 -->
+  <circle cx="335" cy="148" r="28" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <rect x="316" y="114" width="38" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="316" y="168" width="38" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="298" y="132" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="356" y="132" width="14" height="32" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- BAR COUNTER -->
+  <rect x="645" y="92" width="38" height="476" rx="0" fill="#252525" stroke="#393939" stroke-width="1.5"/>
+  <!-- Bar stools -->
+  <circle cx="632" cy="132" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="174" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="216" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="258" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="300" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="342" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="384" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <circle cx="632" cy="426" r="11" fill="#222222" stroke="#393939" stroke-width="1.5"/>
+  <!-- Back bar shelving -->
+  <rect x="688" y="100" width="64" height="460" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
+  <line x1="688" y1="156" x2="752" y2="156" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="688" y1="220" x2="752" y2="220" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="688" y1="284" x2="752" y2="284" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="688" y1="348" x2="752" y2="348" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="688" y1="412" x2="752" y2="412" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="688" y1="476" x2="752" y2="476" stroke="#2e2e2e" stroke-width="1.5"/>
+
+  <!-- door swings -->
+  <rect x="284" y="568" width="70" height="10" fill="#111111"/>
+  <path d="M 284,572 Q 284,504 350,504" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <rect x="115" y="380" width="10" height="65" fill="#111111"/>
+  <path d="M 120,380 Q 188,380 188,436" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+
+  <!-- LABELS -->
+  <text x="32" y="180" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Storage Room</text>
+  <line x1="118" y1="177" x2="128" y2="172" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="128" cy="172" r="2.5" fill="#ccc6bc"/>
+
+  <text x="32" y="418" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Kitchen Counter</text>
+  <line x1="118" y1="415" x2="130" y2="408" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="130" cy="408" r="2.5" fill="#ccc6bc"/>
+
+  <text x="350" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Dining Table</text>
+  <line x1="414" y1="72" x2="466" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="466" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="635" y="635" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Bar Counter</text>
+  <line x1="690" y1="630" x2="690" y2="572" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="690" cy="572" r="2.5" fill="#ccc6bc"/>
+
+  <text x="350" y="635" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Island Table</text>
+  <line x1="400" y1="630" x2="440" y2="572" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="440" cy="572" r="2.5" fill="#ccc6bc"/>
+
+  <!-- scale bar -->
+  <line x1="130" y1="620" x2="330" y2="620" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="130" y1="614" x2="130" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="230" y1="614" x2="230" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="330" y1="614" x2="330" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <text x="130" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">0</text>
+  <text x="230" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">5m</text>
+  <text x="330" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">10m</text>
+</svg>

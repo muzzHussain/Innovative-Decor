@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <defs>
+    <pattern id="hatch4" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="660" fill="#ffffff"/>
+  <rect x="0" y="0" width="900" height="660" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="10" y="10" width="880" height="640" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="450" y="635" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="3">MODULAR KITCHEN  //  ARCHITECTURAL FLOOR PLAN  //  SCALE 1:25</text>
+  <text x="450" y="52" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">KITCHEN PLAN</text>
+  <line x1="350" y1="56" x2="550" y2="56" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- OUTER WALLS -->
+  <rect x="170" y="85" width="575" height="14" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="170" y="573" width="575" height="14" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="170" y="85" width="14" height="502" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="731" y="85" width="14" height="502" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Pantry partition -->
+  <rect x="560" y="85" width="10" height="168" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="560" y="243" width="185" height="10" fill="url(#hatch4)" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- COUNTER TOP (L-shape + island) — shown as thick outline -->
+  <!-- Top counter -->
+  <rect x="184" y="99" width="540" height="38" rx="2" fill="none" stroke="#555" stroke-width="2"/>
+  <!-- Right side counter -->
+  <rect x="696" y="99" width="30" height="460" rx="2" fill="none" stroke="#555" stroke-width="2"/>
+  <!-- Island -->
+  <rect x="248" y="256" width="308" height="128" rx="6" fill="none" stroke="#555" stroke-width="2"/>
+
+  <!-- APPLIANCE SYMBOLS -->
+  <!-- Stove (4 burner hob) -->
+  <rect x="272" y="102" width="88" height="32" rx="2" fill="none" stroke="#888" stroke-width="1"/>
+  <circle cx="290" cy="110" r="7" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="310" cy="110" r="7" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="290" cy="125" r="7" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="310" cy="125" r="7" fill="none" stroke="#888" stroke-width="1.2"/>
+  <!-- Oven -->
+  <rect x="192" y="102" width="70" height="32" rx="2" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="200" y="109" width="54" height="18" rx="1" fill="none" stroke="#aaa" stroke-width="0.8"/>
+  <!-- Sink -->
+  <rect x="395" y="102" width="70" height="32" rx="2" fill="none" stroke="#888" stroke-width="1"/>
+  <rect x="400" y="107" width="28" height="22" rx="1" fill="none" stroke="#aaa" stroke-width="0.8"/>
+  <rect x="432" y="107" width="26" height="22" rx="1" fill="none" stroke="#aaa" stroke-width="0.8"/>
+  <!-- Refrigerator -->
+  <rect x="484" y="99" width="68" height="60" rx="3" fill="none" stroke="#888" stroke-width="1.5"/>
+  <line x1="518" y1="99" x2="518" y2="159" stroke="#aaa" stroke-width="0.8"/>
+
+  <!-- ISLAND label -->
+  <text x="402" y="325" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Kitchen Island</text>
+  <!-- Bar stools at island -->
+  <circle cx="274" cy="402" r="16" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="330" cy="402" r="16" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="386" cy="402" r="16" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="442" cy="402" r="16" fill="none" stroke="#888" stroke-width="1.2"/>
+  <circle cx="498" cy="402" r="16" fill="none" stroke="#888" stroke-width="1.2"/>
+
+  <!-- PANTRY -->
+  <text x="640" y="170" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Pantry</text>
+
+  <!-- ROOM LABEL -->
+  <text x="380" y="490" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Main Kitchen Area</text>
+
+  <!-- DOOR SYMBOL -->
+  <line x1="170" y1="385" x2="170" y2="448" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 177,385 Q 238,385 238,445" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="177" y1="385" x2="177" y2="445" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- WINDOW (top wall) -->
+  <line x1="380" y1="85" x2="540" y2="85" stroke="#ffffff" stroke-width="10"/>
+  <line x1="380" y1="87" x2="540" y2="87" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="380" y1="91" x2="540" y2="91" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="380" y1="95" x2="540" y2="95" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- DIMENSION LINES -->
+  <line x1="170" y1="72" x2="745" y2="72" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="174,72 170,68 170,76" fill="#1a1a1a"/>
+  <polygon points="741,72 745,68 745,76" fill="#1a1a1a"/>
+  <line x1="170" y1="65" x2="170" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="745" y1="65" x2="745" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="457" y="68" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">5750 mm</text>
+
+  <line x1="760" y1="85" x2="760" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="760,89 756,85 764,85" fill="#1a1a1a"/>
+  <polygon points="760,583 756,587 764,587" fill="#1a1a1a"/>
+  <line x1="753" y1="85" x2="768" y2="85" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="753" y1="587" x2="768" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="776" y="340" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" transform="rotate(90,776,340)">5020 mm</text>
+
+  <!-- Island dimensions -->
+  <line x1="248" y1="606" x2="556" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="252,606 248,602 248,610" fill="#1a1a1a"/>
+  <polygon points="552,606 556,602 556,610" fill="#1a1a1a"/>
+  <text x="402" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">Island: 3080 mm x 1280 mm</text>
+
+  <!-- scale bar -->
+  <line x1="20" y1="622" x2="120" y2="622" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="20" y="618" width="50" height="4" fill="#1a1a1a"/>
+  <rect x="70" y="618" width="50" height="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="20" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="70" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">1.25m</text>
+  <text x="120" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">2.5m</text>
+</svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <!-- Dark background -->
+  <rect width="900" height="660" fill="#0f0e0d"/>
+
+  <!-- ===== ROOM BOX (5w x 4d x 3h) ===== -->
+  <!-- floor: dark stone tiles -->
+  <polygon points="440,380 635,492 479,582 284,470" fill="#1a1510" stroke="#241c10" stroke-width="0.5"/>
+  <!-- tile grid diagonals -->
+  <line x1="362" y1="440" x2="557" y2="552" stroke="#241c10" stroke-width="0.8" opacity="0.7"/>
+  <line x1="323" y1="455" x2="518" y2="567" stroke="#241c10" stroke-width="0.8" opacity="0.7"/>
+  <line x1="453" y1="416" x2="648" y2="528" stroke="#241c10" stroke-width="0.8" opacity="0.7"/>
+  <line x1="400" y1="400" x2="595" y2="512" stroke="#241c10" stroke-width="0.8" opacity="0.7"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#241c10" stroke-width="0.8" opacity="0.4"/>
+  <line x1="479" y1="402" x2="323" y2="492" stroke="#241c10" stroke-width="0.8" opacity="0.4"/>
+  <line x1="518" y1="424" x2="362" y2="514" stroke="#241c10" stroke-width="0.8" opacity="0.4"/>
+  <line x1="557" y1="446" x2="401" y2="536" stroke="#241c10" stroke-width="0.8" opacity="0.4"/>
+  <line x1="596" y1="468" x2="440" y2="558" stroke="#241c10" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- left wall -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#1c1810"/>
+  <line x1="362" y1="402" x2="362" y2="335" stroke="#28200c" stroke-width="0.8" opacity="0.5"/>
+  <line x1="323" y1="425" x2="323" y2="358" stroke="#28200c" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- back wall -->
+  <polygon points="440,380 635,492 635,357 440,245" fill="#201c12"/>
+  <line x1="493" y1="380" x2="493" y2="302" stroke="#2a2418" stroke-width="0.8" opacity="0.4"/>
+  <line x1="547" y1="408" x2="547" y2="330" stroke="#2a2418" stroke-width="0.8" opacity="0.4"/>
+  <line x1="601" y1="436" x2="601" y2="358" stroke="#2a2418" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- ceiling -->
+  <polygon points="440,245 635,357 479,447 284,335" fill="#1a1610" opacity="0.4"/>
+
+  <!-- ===== BAR COUNTER (x=0.3-4.7, z=0-0.7, h=1.1m) ===== -->
+  <!-- Front face (at z=0.7) -->
+  <polygon points="424,403 596,502 596,452 424,353" fill="#3a2010"/>
+  <!-- Top face -->
+  <polygon points="452,337 623,446 596,452 424,353" fill="#5a3820"/>
+  <!-- Right end face -->
+  <polygon points="623,446 596,452 596,502 623,481" fill="#2a1808"/>
+  <!-- Counter surface veining -->
+  <polygon points="454,335 621,444 594,450 426,351" fill="#624030" opacity="0.4"/>
+  <line x1="460" y1="338" x2="490" y2="362" stroke="#7a5040" stroke-width="0.7" opacity="0.35"/>
+  <line x1="520" y1="374" x2="560" y2="400" stroke="#7a5040" stroke-width="0.7" opacity="0.35"/>
+
+  <!-- ===== BACK BAR SHELVING (on back wall, z=0, x=0.5-3.5) ===== -->
+  <!-- Shelf 1 top face (y=1.4m) -->
+  <polygon points="460,328 577,396 569,400 452,332" fill="#5a4030"/>
+  <polygon points="452,332 569,400 569,405 452,337" fill="#3a2820"/>
+  <!-- Shelf 2 top face (y=1.9m) -->
+  <polygon points="460,306 577,373 569,378 452,310" fill="#5a4030"/>
+  <polygon points="452,310 569,378 569,383 452,315" fill="#3a2820"/>
+  <!-- Shelf 3 top face (y=2.4m) -->
+  <polygon points="460,284 577,351 569,356 452,288" fill="#5a4030"/>
+  <polygon points="452,288 569,356 569,361 452,292" fill="#3a2820"/>
+
+  <!-- Bottles on shelf 1 (standing upright, isometric perspective) -->
+  <rect x="466" y="314" width="5" height="14" rx="1.5" fill="#8B2500" opacity="0.9"/>
+  <rect x="474" y="318" width="5" height="14" rx="1.5" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="482" y="322" width="5" height="14" rx="1.5" fill="#4B0082" opacity="0.9"/>
+  <rect x="490" y="326" width="5" height="14" rx="1.5" fill="#006400" opacity="0.9"/>
+  <rect x="498" y="330" width="5" height="14" rx="1.5" fill="#8B6914" opacity="0.9"/>
+  <rect x="506" y="334" width="5" height="14" rx="1.5" fill="#8B2500" opacity="0.9"/>
+  <rect x="514" y="338" width="5" height="14" rx="1.5" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="522" y="342" width="5" height="14" rx="1.5" fill="#4B0082" opacity="0.9"/>
+  <rect x="530" y="346" width="5" height="14" rx="1.5" fill="#8B6914" opacity="0.9"/>
+  <rect x="538" y="350" width="5" height="14" rx="1.5" fill="#006400" opacity="0.9"/>
+  <rect x="546" y="354" width="5" height="14" rx="1.5" fill="#8B2500" opacity="0.9"/>
+  <rect x="554" y="358" width="5" height="14" rx="1.5" fill="#2F4F4F" opacity="0.9"/>
+
+  <!-- Glasses on shelf 2 -->
+  <rect x="466" y="292" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+  <rect x="473" y="296" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+  <rect x="480" y="300" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+  <rect x="488" y="300" width="5" height="13" rx="1.5" fill="#6B8E23" opacity="0.8"/>
+  <rect x="496" y="304" width="5" height="13" rx="1.5" fill="#8B2500" opacity="0.8"/>
+  <rect x="504" y="308" width="5" height="13" rx="1.5" fill="#4B0082" opacity="0.8"/>
+  <rect x="512" y="312" width="5" height="13" rx="1.5" fill="#8B6914" opacity="0.8"/>
+  <rect x="520" y="316" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+  <rect x="527" y="320" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+  <rect x="534" y="324" width="4" height="11" rx="1" fill="#c0c8d0" opacity="0.65"/>
+
+  <!-- Decorative items on shelf 3 -->
+  <rect x="470" y="270" width="5" height="13" rx="1.5" fill="#2F4F4F" opacity="0.8"/>
+  <rect x="478" y="274" width="5" height="13" rx="1.5" fill="#8B2500" opacity="0.8"/>
+  <rect x="487" y="272" width="8" height="10" rx="1" fill="#8B6914" opacity="0.6"/>
+  <rect x="498" y="276" width="5" height="12" rx="1.5" fill="#4B0082" opacity="0.8"/>
+  <rect x="506" y="280" width="5" height="12" rx="1.5" fill="#006400" opacity="0.8"/>
+  <ellipse cx="520" cy="275" rx="8" ry="5" fill="#8a7060" opacity="0.6"/>
+
+  <!-- ===== BAR STOOLS (at z~1.0, in front of bar) ===== -->
+  <!-- Stool 1 at (1.2, 1.0): px=448, py=430 -->
+  <line x1="447" y1="430" x2="447" y2="396" stroke="#5a4030" stroke-width="3"/>
+  <ellipse cx="447" cy="394" rx="13" ry="7" fill="#7a5838" opacity="0.9"/>
+  <!-- Stool 2 at (2.5, 1.0): px=499, py=459 -->
+  <line x1="499" y1="459" x2="499" y2="425" stroke="#5a4030" stroke-width="3"/>
+  <ellipse cx="499" cy="423" rx="13" ry="7" fill="#7a5838" opacity="0.9"/>
+  <!-- Stool 3 at (3.8, 1.0): px=549, py=488 -->
+  <line x1="549" y1="488" x2="549" y2="454" stroke="#5a4030" stroke-width="3"/>
+  <ellipse cx="549" cy="452" rx="13" ry="7" fill="#7a5838" opacity="0.9"/>
+
+  <!-- ===== DINING TABLE 1 (x=1.2, z=2.5) ===== -->
+  <!-- px=440+(1.2-2.5)*39=389, py=380+(1.2+2.5)*22.5=463 -->
+  <ellipse cx="389" cy="450" rx="28" ry="16" fill="#3c2812" stroke="#5a3e1c" stroke-width="1.5"/>
+  <ellipse cx="389" cy="452" rx="28" ry="16" fill="#2e2010" opacity="0.4"/>
+  <line x1="389" y1="452" x2="389" y2="469" stroke="#3c2812" stroke-width="5"/>
+  <!-- chairs -->
+  <ellipse cx="365" cy="460" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="413" cy="458" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="389" cy="471" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="389" cy="439" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <!-- candle centerpiece -->
+  <line x1="389" y1="450" x2="389" y2="441" stroke="#c8a030" stroke-width="1.5"/>
+  <ellipse cx="389" cy="441" rx="3" ry="2" fill="#ffcc44" opacity="0.85"/>
+  <ellipse cx="389" cy="340" rx="18" ry="10" fill="#d4b858" opacity="0.07"/>
+
+  <!-- ===== DINING TABLE 2 (x=3.2, z=3.0) ===== -->
+  <!-- px=440+(3.2-3)*39=448, py=380+(3.2+3)*22.5=519 -->
+  <ellipse cx="448" cy="506" rx="28" ry="16" fill="#3c2812" stroke="#5a3e1c" stroke-width="1.5"/>
+  <ellipse cx="448" cy="508" rx="28" ry="16" fill="#2e2010" opacity="0.4"/>
+  <line x1="448" y1="508" x2="448" y2="525" stroke="#3c2812" stroke-width="5"/>
+  <ellipse cx="424" cy="516" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="472" cy="514" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="448" cy="527" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <ellipse cx="448" cy="495" rx="11" ry="6" fill="#5a3e2a" opacity="0.85"/>
+  <line x1="448" y1="506" x2="448" y2="497" stroke="#c8a030" stroke-width="1.5"/>
+  <ellipse cx="448" cy="497" rx="3" ry="2" fill="#ffcc44" opacity="0.85"/>
+
+  <!-- ===== PENDANT LIGHTS ===== -->
+  <!-- Over bar center -->
+  <line x1="530" y1="357" x2="530" y2="382" stroke="#6a5a40" stroke-width="1.5"/>
+  <ellipse cx="530" cy="384" rx="18" ry="10" fill="#c8a848"/>
+  <ellipse cx="530" cy="386" rx="18" ry="10" fill="#a08030" opacity="0.7"/>
+  <ellipse cx="530" cy="360" rx="28" ry="15" fill="#d4b858" opacity="0.06"/>
+  <!-- Over table 1 -->
+  <line x1="389" y1="335" x2="389" y2="357" stroke="#6a5a40" stroke-width="1.5"/>
+  <ellipse cx="389" cy="359" rx="14" ry="8" fill="#c8a848"/>
+  <ellipse cx="389" cy="361" rx="14" ry="8" fill="#a08030" opacity="0.7"/>
+  <!-- Over table 2 -->
+  <line x1="450" y1="357" x2="450" y2="379" stroke="#6a5a40" stroke-width="1.5"/>
+  <ellipse cx="450" cy="381" rx="14" ry="8" fill="#c8a848"/>
+  <ellipse cx="450" cy="383" rx="14" ry="8" fill="#a08030" opacity="0.7"/>
+
+  <!-- Wall sconces (left wall ambient) -->
+  <ellipse cx="370" cy="382" rx="12" ry="7" fill="#d4b858" opacity="0.35"/>
+  <ellipse cx="330" cy="404" rx="12" ry="7" fill="#d4b858" opacity="0.35"/>
+
+  <!-- Wall edges -->
+  <line x1="440" y1="380" x2="440" y2="245" stroke="#786e64" stroke-width="1.5"/>
+  <line x1="635" y1="492" x2="635" y2="357" stroke="#786e64" stroke-width="1"/>
+  <line x1="284" y1="470" x2="284" y2="335" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="245" x2="635" y2="357" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="245" x2="284" y2="335" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="380" x2="635" y2="492" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#786e64" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ccc6bc" text-anchor="middle" letter-spacing="4">3D VIEW  //  RESTAURANT &amp; BAR  //  MAIN AREA</text>
+  <line x1="220" y1="628" x2="680" y2="628" stroke="#5a5048" stroke-width="0.8"/>
+</svg>

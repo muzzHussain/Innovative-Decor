@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <!-- Dark background -->
+  <rect width="900" height="660" fill="#0f0e0d"/>
+
+  <!-- ===== ROOM BOX (5w x 4d x 3h) ===== -->
+  <!-- floor: light tiles on dark -->
+  <polygon points="440,380 635,492 479,582 284,470" fill="#161410" stroke="#201c18" stroke-width="0.5"/>
+  <!-- floor tile grid -->
+  <line x1="362" y1="440" x2="557" y2="552" stroke="#201c18" stroke-width="0.8" opacity="0.6"/>
+  <line x1="323" y1="455" x2="518" y2="567" stroke="#201c18" stroke-width="0.8" opacity="0.6"/>
+  <line x1="453" y1="416" x2="648" y2="528" stroke="#201c18" stroke-width="0.8" opacity="0.6"/>
+  <line x1="400" y1="400" x2="595" y2="512" stroke="#201c18" stroke-width="0.8" opacity="0.6"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#201c18" stroke-width="0.8" opacity="0.4"/>
+  <line x1="479" y1="402" x2="323" y2="492" stroke="#201c18" stroke-width="0.8" opacity="0.4"/>
+  <line x1="518" y1="424" x2="362" y2="514" stroke="#201c18" stroke-width="0.8" opacity="0.4"/>
+  <line x1="557" y1="446" x2="401" y2="536" stroke="#201c18" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- left wall: light plaster finish -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#e8e2d8" opacity="0.12"/>
+  <!-- actual left wall dark base -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#1e1c18"/>
+  <!-- tile backsplash strip on left wall (lower portion) -->
+  <polygon points="440,380 284,470 284,425 440,370" fill="#282420"/>
+
+  <!-- back wall: with tile backsplash -->
+  <polygon points="440,380 635,492 635,357 440,245" fill="#201e1a"/>
+  <!-- tile backsplash on back wall (lower 1.2m) -->
+  <polygon points="440,380 635,492 635,438 440,326" fill="#2a2420"/>
+  <!-- backsplash tile lines (horizontal) -->
+  <line x1="440" y1="345" x2="635" y2="457" stroke="#362e28" stroke-width="0.7" opacity="0.7"/>
+  <line x1="440" y1="358" x2="635" y2="470" stroke="#362e28" stroke-width="0.7" opacity="0.7"/>
+  <line x1="440" y1="371" x2="635" y2="483" stroke="#362e28" stroke-width="0.7" opacity="0.7"/>
+  <!-- backsplash tile lines (diagonal) -->
+  <line x1="462" y1="328" x2="462" y2="380" stroke="#362e28" stroke-width="0.7" opacity="0.5"/>
+  <line x1="501" y1="350" x2="501" y2="402" stroke="#362e28" stroke-width="0.7" opacity="0.5"/>
+  <line x1="540" y1="372" x2="540" y2="424" stroke="#362e28" stroke-width="0.7" opacity="0.5"/>
+  <line x1="579" y1="394" x2="579" y2="446" stroke="#362e28" stroke-width="0.7" opacity="0.5"/>
+
+  <!-- ceiling -->
+  <polygon points="440,245 635,357 479,447 284,335" fill="#1a1816" opacity="0.4"/>
+
+  <!-- ===== BACK WALL COUNTER (x=0.3-4.7, z=0-0.6, h=0.9m) ===== -->
+  <!-- Counter back (z=0, against back wall) already at wall -->
+  <!-- Counter front face (z=0.6) -->
+  <polygon points="428,400 600,499 600,459 428,360" fill="#3c3028"/>
+  <!-- Counter top -->
+  <polygon points="452,347 623,446 600,459 428,360" fill="#e8dcc8"/>
+  <!-- Subtle counter top surface -->
+  <polygon points="454,345 621,444 598,457 430,358" fill="#d8caba" opacity="0.6"/>
+  <!-- Counter right end face -->
+  <polygon points="623,446 600,459 600,499 623,481" fill="#2e2420"/>
+
+  <!-- ===== STOVE HOB (on back counter, x=1.2-2.2, z=0.1) ===== -->
+  <!-- stove top at counter height (y=0.9, z~0.1, x~1.7) -->
+  <!-- Approximate position on counter surface -->
+  <polygon points="476,362 520,386 512,391 468,367" fill="#1a1818" stroke="#2a2824" stroke-width="0.8"/>
+  <!-- burner circles -->
+  <ellipse cx="481" cy="368" rx="5" ry="3" fill="none" stroke="#6a6060" stroke-width="1.2"/>
+  <ellipse cx="494" cy="375" rx="5" ry="3" fill="none" stroke="#6a6060" stroke-width="1.2"/>
+  <ellipse cx="503" cy="370" rx="5" ry="3" fill="none" stroke="#6a6060" stroke-width="1.2"/>
+  <ellipse cx="516" cy="377" rx="5" ry="3" fill="none" stroke="#6a6060" stroke-width="1.2"/>
+
+  <!-- ===== SINK (on back counter, x=2.8-3.4, z=0.1) ===== -->
+  <polygon points="529,378 562,396 555,401 522,383" fill="#282420" stroke="#3a3430" stroke-width="0.8"/>
+  <ellipse cx="542" cy="390" rx="9" ry="5" fill="#1a1a1a" stroke="#3a3434" stroke-width="0.8"/>
+  <!-- tap -->
+  <line x1="543" y1="385" x2="543" y2="376" stroke="#8a8070" stroke-width="1.5"/>
+  <ellipse cx="543" cy="376" rx="3" ry="2" fill="#8a8070"/>
+
+  <!-- ===== OVERHEAD HOOD (above stove, x=1.0-2.4, z=0, h=1.8-2.3) ===== -->
+  <!-- Hood at height 1.8m above floor, above stove -->
+  <!-- Bottom of hood at y=1.8: -->
+  <!-- (1.0, 0, 1.8): px=440+1*39=479, py=380+1*22.5-1.8*45=380+22.5-81=321.5≈322 -->
+  <!-- (2.4, 0, 1.8): px=440+2.4*39=533.6≈534, py=380+2.4*22.5-81=380+54-81=353 -->
+  <!-- (2.4, 0.4, 1.8): px=440+(2.4-0.4)*39=440+78=518, py=380+(2.4+0.4)*22.5-81=380+63-81=362 -->
+  <!-- (1.0, 0.4, 1.8): px=440+(1-0.4)*39=440+23.4=463.4≈463, py=380+(1+0.4)*22.5-81=380+31.5-81=330.5≈331 -->
+  <!-- Hood body -->
+  <polygon points="479,322 534,353 518,362 463,331" fill="#3a3630"/>
+  <!-- Hood front face (from y=1.8 down to y=1.4) -->
+  <polygon points="463,331 518,362 518,380 463,349" fill="#2a2622"/>
+  <!-- Hood vent slots -->
+  <line x1="468" y1="340" x2="513" y2="365" stroke="#1a1816" stroke-width="1.5"/>
+  <line x1="468" y1="347" x2="513" y2="372" stroke="#1a1816" stroke-width="1.5"/>
+  <line x1="468" y1="354" x2="513" y2="379" stroke="#1a1816" stroke-width="1.5"/>
+  <!-- Hood top -->
+  <!-- Hood tapers up: (1.2,0,2.3) to (2.2,0,2.3) to (2.2,0.2,2.3) to (1.2,0.2,2.3) -->
+  <polygon points="483,296 528,322 522,326 477,300" fill="#2a2620"/>
+
+  <!-- ===== RIGHT WALL COUNTER (x=4-5, z=0.6-3.6, h=0.9m) ===== -->
+  <!-- Near (left) face at x=4: -->
+  <!-- (4,0.6,0): px=440+(4-0.6)*39=572.6≈573, py=380+(4+0.6)*22.5=483.5≈484 -->
+  <!-- (4,3.6,0): px=440+(4-3.6)*39=447.8≈448, py=380+(4+3.6)*22.5=556 -->
+  <!-- (4,3.6,0.9): px=448, py=556-40.5=515.5≈516 -->
+  <!-- (4,0.6,0.9): px=573, py=484-40.5=443.5≈444 -->
+  <polygon points="573,484 448,556 448,516 573,444" fill="#3c3028"/>
+  <!-- Top face of right counter -->
+  <!-- (4,0.6,0.9): (573,444) -->
+  <!-- (5,0.6,0.9): px=440+(5-0.6)*39=440+171.6=611.6≈612, py=380+(5+0.6)*22.5-40.5=380+126-40.5=465.5≈466 -->
+  <!-- (5,3.6,0.9): px=440+(5-3.6)*39=440+54.6=494.6≈495, py=380+(5+3.6)*22.5-40.5=380+193.5-40.5=533≈533 -->
+  <!-- (4,3.6,0.9): (448,516) -->
+  <polygon points="573,444 612,466 495,533 448,516" fill="#e8dcc8"/>
+  <polygon points="575,442 610,464 493,531 450,514" fill="#d8caba" opacity="0.5"/>
+  <!-- Near (front) face at z=3.6: -->
+  <!-- (4,3.6,0): (448,556) -->
+  <!-- (5,3.6,0): px=440+(5-3.6)*39=440+54.6=494.6≈495, py=380+(5+3.6)*22.5=380+193.5=573.5≈574 -->
+  <!-- (5,3.6,0.9): (495,533) -->
+  <!-- (4,3.6,0.9): (448,516) -->
+  <polygon points="448,556 495,574 495,533 448,516" fill="#2e2420"/>
+
+  <!-- ===== KITCHEN ISLAND (x=1.5-3.5, z=1.6-2.6, h=0.9m) ===== -->
+  <!-- (1.5,1.6,0): px=440+(1.5-1.6)*39=436, py=380+(1.5+1.6)*22.5=449.75≈450 -->
+  <!-- (3.5,1.6,0): px=440+(3.5-1.6)*39=514, py=380+(3.5+1.6)*22.5=494.75≈495 -->
+  <!-- (3.5,2.6,0): px=440+(3.5-2.6)*39=475, py=380+(3.5+2.6)*22.5=517.25≈517 -->
+  <!-- (1.5,2.6,0): px=440+(1.5-2.6)*39=397, py=380+(1.5+2.6)*22.5=472.25≈472 -->
+  <!-- Front face (z=2.6) -->
+  <polygon points="397,472 475,517 475,477 397,432" fill="#3c3028"/>
+  <!-- Right face (x=3.5) -->
+  <polygon points="514,495 475,517 475,477 514,455" fill="#2e2420"/>
+  <!-- Top face -->
+  <polygon points="436,410 514,455 475,477 397,432" fill="#e8dcc8"/>
+  <polygon points="438,408 512,453 473,475 399,430" fill="#d8caba" opacity="0.5"/>
+
+  <!-- Island bar stools (south of island, at z~3.2) -->
+  <!-- (2.0, 3.2): px=440+(2-3.2)*39=393, py=380+(2+3.2)*22.5=497 -->
+  <line x1="393" y1="497" x2="393" y2="463" stroke="#5a4830" stroke-width="3"/>
+  <ellipse cx="393" cy="461" rx="13" ry="7" fill="#6a5638" opacity="0.9"/>
+  <!-- (2.7, 3.2): px=440+(2.7-3.2)*39=421, py=380+(2.7+3.2)*22.5=512.75≈513 -->
+  <line x1="421" y1="513" x2="421" y2="479" stroke="#5a4830" stroke-width="3"/>
+  <ellipse cx="421" cy="477" rx="13" ry="7" fill="#6a5638" opacity="0.9"/>
+  <!-- (3.4, 3.2): px=440+(3.4-3.2)*39=448, py=380+(3.4+3.2)*22.5=528.5≈529 -->
+  <line x1="448" y1="529" x2="448" y2="495" stroke="#5a4830" stroke-width="3"/>
+  <ellipse cx="448" cy="493" rx="13" ry="7" fill="#6a5638" opacity="0.9"/>
+
+  <!-- ===== PENDANT LIGHTS OVER ISLAND ===== -->
+  <!-- Pendant 1: above island center-left -->
+  <!-- center at (2.0, 2.1, 3.0): px=440+(2-2.1)*39=436, py=380+(2+2.1)*22.5-3*45=380+92.25-135=337.25≈337 -->
+  <line x1="456" y1="357" x2="456" y2="382" stroke="#6a5a40" stroke-width="1.5"/>
+  <ellipse cx="456" cy="384" rx="15" ry="8" fill="#c8a848"/>
+  <ellipse cx="456" cy="386" rx="15" ry="8" fill="#a08030" opacity="0.7"/>
+  <ellipse cx="456" cy="360" rx="22" ry="12" fill="#d4b858" opacity="0.06"/>
+  <!-- Pendant 2: above island center-right -->
+  <line x1="490" y1="375" x2="490" y2="400" stroke="#6a5a40" stroke-width="1.5"/>
+  <ellipse cx="490" cy="402" rx="15" ry="8" fill="#c8a848"/>
+  <ellipse cx="490" cy="404" rx="15" ry="8" fill="#a08030" opacity="0.7"/>
+
+  <!-- Wall edges -->
+  <line x1="440" y1="380" x2="440" y2="245" stroke="#786e64" stroke-width="1.5"/>
+  <line x1="635" y1="492" x2="635" y2="357" stroke="#786e64" stroke-width="1"/>
+  <line x1="284" y1="470" x2="284" y2="335" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="245" x2="635" y2="357" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="245" x2="284" y2="335" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="380" x2="635" y2="492" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#786e64" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ccc6bc" text-anchor="middle" letter-spacing="4">3D VIEW  //  MODULAR KITCHEN  //  ISLAND LAYOUT</text>
+  <line x1="220" y1="628" x2="680" y2="628" stroke="#5a5048" stroke-width="0.8"/>
+</svg>

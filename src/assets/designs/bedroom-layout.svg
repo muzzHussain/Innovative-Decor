@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <rect width="900" height="660" fill="#111111"/>
+  <text x="32" y="52" font-family="Georgia,serif" font-size="30" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">Layout.</text>
+  <text x="32" y="72" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" letter-spacing="3">MASTER BEDROOM SUITE</text>
+
+  <!-- outer wall -->
+  <rect x="130" y="88" width="650" height="484" fill="#1c1c1c" stroke="#ccc6bc" stroke-width="9" stroke-linejoin="miter"/>
+
+  <!-- internal walls -->
+  <!-- En-suite bathroom (top-right) -->
+  <line x1="560" y1="88" x2="560" y2="282" stroke="#ccc6bc" stroke-width="6"/>
+  <line x1="560" y1="282" x2="780" y2="282" stroke="#ccc6bc" stroke-width="6"/>
+  <!-- Walk-in wardrobe (bottom-right) -->
+  <line x1="560" y1="282" x2="560" y2="572" stroke="#ccc6bc" stroke-width="6"/>
+
+  <!-- fills -->
+  <rect x="134" y="92" width="422" height="476" fill="#1e1e1e"/>
+  <rect x="564" y="92" width="212" height="186" fill="#1b1b1b"/>
+  <rect x="564" y="286" width="212" height="282" fill="#1a1a1a"/>
+
+  <!-- MAIN BEDROOM FURNITURE -->
+  <!-- King bed (centered) -->
+  <rect x="188" y="200" width="210" height="270" rx="8" fill="#252525" stroke="#393939" stroke-width="2"/>
+  <!-- Headboard -->
+  <rect x="188" y="200" width="210" height="24" rx="8" fill="#2e2e2e" stroke="#3c3c3c" stroke-width="1.5"/>
+  <!-- Pillows -->
+  <rect x="200" y="228" width="78" height="46" rx="8" fill="#2c2c2c" stroke="#404040" stroke-width="1"/>
+  <rect x="290" y="228" width="78" height="46" rx="8" fill="#2c2c2c" stroke="#404040" stroke-width="1"/>
+  <!-- Bed frame foot board -->
+  <rect x="188" y="458" width="210" height="12" rx="4" fill="#2d2d2d" stroke="#404040" stroke-width="1"/>
+  <!-- Bedside tables -->
+  <rect x="142" y="228" width="42" height="48" rx="5" fill="#222222" stroke="#383838" stroke-width="1.5"/>
+  <rect x="402" y="228" width="42" height="48" rx="5" fill="#222222" stroke="#383838" stroke-width="1.5"/>
+  <!-- Bedside lamps (circles) -->
+  <circle cx="163" cy="246" r="10" fill="none" stroke="#c8b468" stroke-width="1.5"/>
+  <circle cx="423" cy="246" r="10" fill="none" stroke="#c8b468" stroke-width="1.5"/>
+
+  <!-- TV unit on south wall -->
+  <rect x="142" y="536" width="410" height="28" rx="4" fill="#242424" stroke="#383838" stroke-width="1.5"/>
+  <line x1="260" y1="536" x2="260" y2="564" stroke="#333" stroke-width="1"/>
+  <line x1="380" y1="536" x2="380" y2="564" stroke="#333" stroke-width="1"/>
+  <rect x="162" y="500" width="250" height="34" rx="3" fill="#222222" stroke="#363636" stroke-width="1"/>
+  <rect x="170" y="504" width="234" height="22" rx="2" fill="#1a1a1a"/>
+
+  <!-- Dressing chair + vanity -->
+  <rect x="452" y="350" width="80" height="58" rx="6" fill="#262626" stroke="#3a3a3a" stroke-width="1.5"/>
+  <circle cx="492" cy="430" r="22" fill="#222222" stroke="#383838" stroke-width="1.5"/>
+  <!-- Vanity mirror (circle) -->
+  <circle cx="492" cy="350" r="0" fill="none"/>
+  <rect x="460" y="136" width="96" height="55" rx="5" fill="#242424" stroke="#383838" stroke-width="1.5"/>
+  <ellipse cx="508" cy="165" rx="32" ry="18" fill="none" stroke="#393939" stroke-width="1"/>
+
+  <!-- EN-SUITE BATHROOM -->
+  <rect x="693" y="102" width="78" height="95" rx="6" fill="#252525" stroke="#383838" stroke-width="1"/>
+  <ellipse cx="732" cy="180" rx="28" ry="20" fill="#262626" stroke="#383838" stroke-width="1"/>
+  <rect x="572" y="102" width="58" height="42" rx="5" fill="#252525" stroke="#383838" stroke-width="1"/>
+  <circle cx="601" cy="123" r="9" fill="none" stroke="#444" stroke-width="1.5"/>
+  <rect x="572" y="155" width="88" height="115" rx="4" fill="#1b1b1b" stroke="#383838" stroke-width="1"/>
+  <circle cx="632" cy="198" r="16" fill="none" stroke="#444" stroke-width="1.5"/>
+  <line x1="572" y1="213" x2="660" y2="213" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- WALK-IN WARDROBE -->
+  <!-- Hanging sections -->
+  <rect x="572" y="300" width="94" height="254" rx="3" fill="#1e1e1e" stroke="#2c2c2c" stroke-width="1"/>
+  <line x1="572" y1="360" x2="666" y2="360" stroke="#282828" stroke-width="1.5"/>
+  <line x1="572" y1="420" x2="666" y2="420" stroke="#282828" stroke-width="1.5"/>
+  <line x1="572" y1="480" x2="666" y2="480" stroke="#282828" stroke-width="1.5"/>
+  <line x1="572" y1="330" x2="666" y2="330" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="572" y1="390" x2="666" y2="390" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="572" y1="450" x2="666" y2="450" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="572" y1="510" x2="666" y2="510" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+  <!-- Shelving section -->
+  <rect x="674" y="300" width="98" height="254" rx="3" fill="#1e1e1e" stroke="#2c2c2c" stroke-width="1"/>
+  <line x1="674" y1="342" x2="772" y2="342" stroke="#282828" stroke-width="1.5"/>
+  <line x1="674" y1="384" x2="772" y2="384" stroke="#282828" stroke-width="1.5"/>
+  <line x1="674" y1="426" x2="772" y2="426" stroke="#282828" stroke-width="1.5"/>
+  <line x1="674" y1="468" x2="772" y2="468" stroke="#282828" stroke-width="1.5"/>
+  <line x1="674" y1="510" x2="772" y2="510" stroke="#282828" stroke-width="1.5"/>
+
+  <!-- door swings -->
+  <!-- Bedroom entrance -->
+  <rect x="124" y="155" width="10" height="70" fill="#111111"/>
+  <path d="M 129,155 Q 197,155 197,218" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <!-- Bathroom door -->
+  <rect x="638" y="278" width="70" height="9" fill="#111111"/>
+  <path d="M 638,282 Q 638,220 700,220" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <!-- Wardrobe door -->
+  <rect x="556" y="348" width="9" height="68" fill="#111111"/>
+  <path d="M 560,348 Q 628,348 628,408" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+
+  <!-- LABELS -->
+  <text x="158" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Sleeping Area</text>
+  <line x1="266" y1="72" x2="290" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="290" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="600" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">En-suite Bath</text>
+  <line x1="665" y1="72" x2="665" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="665" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="796" y="420" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Walk-in</text>
+  <text x="796" y="436" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Wardrobe</text>
+  <line x1="794" y1="428" x2="778" y2="422" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="778" cy="422" r="2.5" fill="#ccc6bc"/>
+
+  <text x="432" y="635" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Vanity Area</text>
+  <line x1="492" y1="630" x2="492" y2="572" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="492" cy="572" r="2.5" fill="#ccc6bc"/>
+
+  <!-- scale bar -->
+  <line x1="140" y1="620" x2="340" y2="620" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="140" y1="614" x2="140" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="240" y1="614" x2="240" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="340" y1="614" x2="340" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <text x="140" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">0</text>
+  <text x="240" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">4m</text>
+  <text x="340" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">8m</text>
+</svg>

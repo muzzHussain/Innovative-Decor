@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <defs>
+    <pattern id="hatch2" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="660" fill="#ffffff"/>
+  <rect x="0" y="0" width="900" height="660" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="10" y="10" width="880" height="640" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="450" y="635" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="3">RESTAURANT &amp; BAR  //  ARCHITECTURAL FLOOR PLAN  //  SCALE 1:50</text>
+  <text x="450" y="52" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">FLOOR PLAN</text>
+  <line x1="350" y1="56" x2="550" y2="56" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- OUTER WALLS -->
+  <rect x="120" y="85" width="670" height="14" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="120" y="573" width="670" height="14" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="120" y="85" width="14" height="502" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="776" y="85" width="14" height="502" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- INTERNAL WALLS -->
+  <!-- Kitchen zone -->
+  <rect x="272" y="85" width="10" height="502" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Storage wall -->
+  <rect x="120" y="240" width="162" height="10" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Bar zone -->
+  <rect x="628" y="85" width="10" height="502" fill="url(#hatch2)" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- ROOM LABELS -->
+  <text x="196" y="170" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Storage</text>
+  <text x="196" y="415" font-family="Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Kitchen</text>
+  <text x="450" y="338" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Dining Area</text>
+  <text x="703" y="338" font-family="Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">Bar</text>
+
+  <!-- TABLES (dining area) - circles with chairs -->
+  <!-- Island table -->
+  <rect x="344" y="218" width="236" height="102" rx="6" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Chairs around island (top) -->
+  <rect x="354" y="205" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="401" y="205" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="448" y="205" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="495" y="205" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="354" y="322" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="401" y="322" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="448" y="322" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="495" y="322" width="38" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="330" y="228" width="12" height="72" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="582" y="228" width="12" height="72" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+
+  <!-- Round tables -->
+  <circle cx="330" cy="448" r="34" fill="none" stroke="#555" stroke-width="1.5"/>
+  <rect x="309" y="408" width="42" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="309" y="478" width="42" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="290" y="430" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="364" y="430" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+
+  <circle cx="468" cy="448" r="34" fill="none" stroke="#555" stroke-width="1.5"/>
+  <rect x="447" y="408" width="42" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="447" y="478" width="42" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="428" y="430" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="502" y="430" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+
+  <circle cx="330" cy="148" r="28" fill="none" stroke="#555" stroke-width="1.5"/>
+  <rect x="312" y="114" width="36" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="312" y="170" width="36" height="12" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="294" y="130" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+  <rect x="358" y="130" width="12" height="36" rx="3" fill="none" stroke="#777" stroke-width="1"/>
+
+  <!-- BAR COUNTER -->
+  <rect x="638" y="99" width="34" height="468" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Bar stools (facing bar) -->
+  <circle cx="625" cy="130" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="174" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="218" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="262" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="306" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="350" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="394" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="438" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="482" r="11" fill="none" stroke="#777" stroke-width="1"/>
+  <circle cx="625" cy="526" r="11" fill="none" stroke="#777" stroke-width="1"/>
+
+  <!-- DOOR SYMBOLS -->
+  <!-- Main entrance -->
+  <line x1="282" y1="573" x2="346" y2="573" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 282,573 Q 282,511 344,511" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="282" y1="573" x2="344" y2="573" stroke="#1a1a1a" stroke-width="0.8"/>
+  <!-- Kitchen door -->
+  <line x1="120" y1="375" x2="120" y2="432" stroke="#ffffff" stroke-width="10"/>
+  <path d="M 127,375 Q 185,375 185,432" fill="none" stroke="#1a1a1a" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <line x1="127" y1="375" x2="127" y2="432" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- DIMENSION LINES -->
+  <line x1="120" y1="72" x2="790" y2="72" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="124,72 120,68 120,76" fill="#1a1a1a"/>
+  <polygon points="786,72 790,68 790,76" fill="#1a1a1a"/>
+  <line x1="120" y1="65" x2="120" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="790" y1="65" x2="790" y2="80" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="455" y="68" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">13500 mm</text>
+
+  <line x1="806" y1="85" x2="806" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="806,89 802,85 810,85" fill="#1a1a1a"/>
+  <polygon points="806,583 802,587 810,587" fill="#1a1a1a"/>
+  <line x1="799" y1="85" x2="814" y2="85" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="799" y1="587" x2="814" y2="587" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="824" y="340" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" transform="rotate(90,824,340)">9700 mm</text>
+
+  <!-- Kitchen width -->
+  <line x1="134" y1="606" x2="278" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="138,606 134,602 134,610" fill="#1a1a1a"/>
+  <polygon points="274,606 278,602 278,610" fill="#1a1a1a"/>
+  <text x="206" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">3000 mm</text>
+
+  <!-- Dining width -->
+  <line x1="286" y1="606" x2="634" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="290,606 286,602 286,610" fill="#1a1a1a"/>
+  <polygon points="630,606 634,602 634,610" fill="#1a1a1a"/>
+  <text x="460" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">7000 mm</text>
+
+  <!-- Bar width -->
+  <line x1="638" y1="606" x2="790" y2="606" stroke="#1a1a1a" stroke-width="0.8"/>
+  <polygon points="642,606 638,602 638,610" fill="#1a1a1a"/>
+  <polygon points="786,606 790,602 790,610" fill="#1a1a1a"/>
+  <text x="714" y="602" font-family="Arial,sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">3000 mm</text>
+
+  <!-- scale bar -->
+  <line x1="20" y1="622" x2="120" y2="622" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="20" y="618" width="50" height="4" fill="#1a1a1a"/>
+  <rect x="70" y="618" width="50" height="4" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="20" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="70" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">2.5m</text>
+  <text x="120" y="616" font-family="Arial,sans-serif" font-size="9" fill="#1a1a1a" text-anchor="middle">5m</text>
+</svg>
