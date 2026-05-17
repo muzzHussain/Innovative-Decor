@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520">
+  <defs>
+    <pattern id="darkTile" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#1a1612"/>
+      <rect x="1" y="1" width="28" height="28" fill="#1c1814" stroke="#141210" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1100" height="520" fill="#f4f1ec"/>
+
+  <!-- Title block -->
+  <text x="550" y="490" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="5">ELEVATION A  //  BAR COUNTER &amp; BACK BAR WALL  //  RESTAURANT &amp; BAR</text>
+  <line x1="160" y1="497" x2="940" y2="497" stroke="#1a1a1a" stroke-width="0.8"/>
+
+  <!-- Outer frame -->
+  <rect x="70" y="50" width="960" height="380" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="70" y1="418" x2="1030" y2="418" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="70" y1="62" x2="1030" y2="62" stroke="#1a1a1a" stroke-width="2"/>
+  <rect x="70" y="62" width="12" height="356" fill="#1a1a1a"/>
+  <rect x="1018" y="62" width="12" height="356" fill="#1a1a1a"/>
+
+  <!-- ===== BACK BAR WALL: dark textured tile ===== -->
+  <rect x="82" y="62" width="936" height="356" fill="url(#darkTile)"/>
+
+  <!-- Backlit mirror / translucent panel center -->
+  <rect x="360" y="68" width="380" height="250" fill="#222018" opacity="0.9"/>
+  <rect x="363" y="71" width="374" height="244" fill="#2e2820" opacity="0.35"/>
+  <!-- Mirror edge glow -->
+  <line x1="360" y1="68" x2="740" y2="68" stroke="#6a5838" stroke-width="1.5" opacity="0.7"/>
+  <line x1="360" y1="318" x2="740" y2="318" stroke="#6a5838" stroke-width="1.5" opacity="0.7"/>
+  <line x1="360" y1="68" x2="360" y2="318" stroke="#6a5838" stroke-width="1" opacity="0.5"/>
+  <line x1="740" y1="68" x2="740" y2="318" stroke="#6a5838" stroke-width="1" opacity="0.5"/>
+
+  <!-- ===== FLOATING GLASS SHELVES ===== -->
+  <!-- Shelf 1 at y=308 (h~1.2m from floor) -->
+  <rect x="82" y="306" width="936" height="5" rx="0" fill="#9aaabb" opacity="0.55"/>
+  <!-- Shelf 2 at y=268 (h~1.7m) -->
+  <rect x="82" y="266" width="936" height="5" rx="0" fill="#9aaabb" opacity="0.55"/>
+  <!-- Shelf 3 at y=228 (h~2.2m) -->
+  <rect x="82" y="226" width="936" height="5" rx="0" fill="#9aaabb" opacity="0.55"/>
+  <!-- Shelf 4 at y=188 (h~2.7m) -->
+  <rect x="82" y="186" width="936" height="5" rx="0" fill="#9aaabb" opacity="0.55"/>
+
+  <!-- Shelf bracket pins (vertical) -->
+  <rect x="100" y="186" width="2" height="130" fill="#5a5048" opacity="0.4"/>
+  <rect x="260" y="186" width="2" height="130" fill="#5a5048" opacity="0.4"/>
+  <rect x="840" y="186" width="2" height="130" fill="#5a5048" opacity="0.4"/>
+  <rect x="1000" y="186" width="2" height="130" fill="#5a5048" opacity="0.4"/>
+
+  <!-- ===== BOTTLES on shelf 1 (below shelf 2, from y=271 to 308) ===== -->
+  <!-- Left section -->
+  <rect x="89" y="273" width="8" height="33" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="100" y="275" width="8" height="31" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="111" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="122" y="276" width="8" height="30" rx="2" fill="#006400" opacity="0.9"/>
+  <rect x="133" y="273" width="8" height="33" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="144" y="274" width="8" height="32" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="155" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="166" y="275" width="8" height="31" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="177" y="273" width="8" height="33" rx="2" fill="#6B8E23" opacity="0.9"/>
+  <rect x="188" y="276" width="8" height="30" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="199" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="210" y="274" width="8" height="32" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="221" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="232" y="275" width="8" height="31" rx="2" fill="#006400" opacity="0.9"/>
+  <rect x="243" y="273" width="8" height="33" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="254" y="276" width="8" height="30" rx="2" fill="#6B8E23" opacity="0.9"/>
+  <rect x="265" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="276" y="274" width="8" height="32" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="287" y="273" width="8" height="33" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="298" y="275" width="8" height="31" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="309" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="320" y="276" width="8" height="30" rx="2" fill="#006400" opacity="0.9"/>
+  <rect x="331" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <!-- Right section -->
+  <rect x="756" y="273" width="8" height="33" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="767" y="275" width="8" height="31" rx="2" fill="#6B8E23" opacity="0.9"/>
+  <rect x="778" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="789" y="276" width="8" height="30" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="800" y="273" width="8" height="33" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="811" y="274" width="8" height="32" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="822" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="833" y="275" width="8" height="31" rx="2" fill="#006400" opacity="0.9"/>
+  <rect x="844" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="855" y="276" width="8" height="30" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="866" y="273" width="8" height="33" rx="2" fill="#6B8E23" opacity="0.9"/>
+  <rect x="877" y="274" width="8" height="32" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="888" y="273" width="8" height="33" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="899" y="275" width="8" height="31" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="910" y="273" width="8" height="33" rx="2" fill="#006400" opacity="0.9"/>
+  <rect x="921" y="276" width="8" height="30" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="932" y="273" width="8" height="33" rx="2" fill="#8B6914" opacity="0.9"/>
+  <rect x="943" y="274" width="8" height="32" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="954" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="965" y="275" width="8" height="31" rx="2" fill="#8B2500" opacity="0.9"/>
+  <rect x="976" y="273" width="8" height="33" rx="2" fill="#6B8E23" opacity="0.9"/>
+  <rect x="987" y="276" width="8" height="30" rx="2" fill="#2F4F4F" opacity="0.9"/>
+  <rect x="998" y="273" width="8" height="33" rx="2" fill="#4B0082" opacity="0.9"/>
+  <rect x="1009" y="274" width="8" height="32" rx="2" fill="#8B2500" opacity="0.9"/>
+
+  <!-- Glasses on shelf 2 (from y=231 to 266) -->
+  <rect x="89" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="98" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="107" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="116" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="125" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="134" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="143" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="152" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="161" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="170" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="179" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="188" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="197" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="206" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="215" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="224" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="233" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="242" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="251" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="260" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="269" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="278" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="287" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="296" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="305" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="314" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="323" y="240" width="6" height="24" rx="2" fill="#c0ccd8" opacity="0.58"/>
+  <rect x="332" y="242" width="6" height="22" rx="2" fill="#c0ccd8" opacity="0.58"/>
+
+  <!-- ===== BAR COUNTER (sleek floating counter) ===== -->
+  <rect x="82" y="348" width="936" height="70" fill="#1e1a14"/>
+  <!-- Stone top -->
+  <rect x="78" y="342" width="944" height="10" rx="0" fill="#c0b8a8"/>
+  <!-- Counter front flute lines -->
+  <line x1="130" y1="352" x2="130" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="210" y1="352" x2="210" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="290" y1="352" x2="290" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="370" y1="352" x2="370" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="450" y1="352" x2="450" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="530" y1="352" x2="530" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="610" y1="352" x2="610" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="690" y1="352" x2="690" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="770" y1="352" x2="770" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="850" y1="352" x2="850" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="930" y1="352" x2="930" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <line x1="1010" y1="352" x2="1010" y2="418" stroke="#2a2418" stroke-width="2.5"/>
+  <!-- Under-counter LED strip -->
+  <line x1="82" y1="351" x2="1018" y2="351" stroke="#c8a030" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Bar stools (5, cylindrical seats) -->
+  <line x1="155" y1="418" x2="155" y2="313" stroke="#4a4238" stroke-width="3"/>
+  <ellipse cx="155" cy="311" rx="30" ry="11" fill="#2c2820"/>
+  <ellipse cx="155" cy="308" rx="30" ry="11" fill="#3a3428"/>
+
+  <line x1="325" y1="418" x2="325" y2="313" stroke="#4a4238" stroke-width="3"/>
+  <ellipse cx="325" cy="311" rx="30" ry="11" fill="#2c2820"/>
+  <ellipse cx="325" cy="308" rx="30" ry="11" fill="#3a3428"/>
+
+  <line x1="550" y1="418" x2="550" y2="313" stroke="#4a4238" stroke-width="3"/>
+  <ellipse cx="550" cy="311" rx="30" ry="11" fill="#2c2820"/>
+  <ellipse cx="550" cy="308" rx="30" ry="11" fill="#3a3428"/>
+
+  <line x1="775" y1="418" x2="775" y2="313" stroke="#4a4238" stroke-width="3"/>
+  <ellipse cx="775" cy="311" rx="30" ry="11" fill="#2c2820"/>
+  <ellipse cx="775" cy="308" rx="30" ry="11" fill="#3a3428"/>
+
+  <line x1="945" y1="418" x2="945" y2="313" stroke="#4a4238" stroke-width="3"/>
+  <ellipse cx="945" cy="311" rx="30" ry="11" fill="#2c2820"/>
+  <ellipse cx="945" cy="308" rx="30" ry="11" fill="#3a3428"/>
+
+  <!-- Pendant lights (5 above bar, linear cylindrical) -->
+  <line x1="155" y1="62" x2="155" y2="206" stroke="#4a4238" stroke-width="2"/>
+  <ellipse cx="155" cy="208" rx="22" ry="13" fill="#c8a848"/>
+  <ellipse cx="155" cy="211" rx="22" ry="13" fill="#9a8030" opacity="0.65"/>
+  <ellipse cx="155" cy="64" rx="32" ry="18" fill="#d4b858" opacity="0.05"/>
+
+  <line x1="325" y1="62" x2="325" y2="206" stroke="#4a4238" stroke-width="2"/>
+  <ellipse cx="325" cy="208" rx="22" ry="13" fill="#c8a848"/>
+  <ellipse cx="325" cy="211" rx="22" ry="13" fill="#9a8030" opacity="0.65"/>
+
+  <line x1="550" y1="62" x2="550" y2="206" stroke="#4a4238" stroke-width="2"/>
+  <ellipse cx="550" cy="208" rx="22" ry="13" fill="#c8a848"/>
+  <ellipse cx="550" cy="211" rx="22" ry="13" fill="#9a8030" opacity="0.65"/>
+
+  <line x1="775" y1="62" x2="775" y2="206" stroke="#4a4238" stroke-width="2"/>
+  <ellipse cx="775" cy="208" rx="22" ry="13" fill="#c8a848"/>
+  <ellipse cx="775" cy="211" rx="22" ry="13" fill="#9a8030" opacity="0.65"/>
+
+  <line x1="945" y1="62" x2="945" y2="206" stroke="#4a4238" stroke-width="2"/>
+  <ellipse cx="945" cy="208" rx="22" ry="13" fill="#c8a848"/>
+  <ellipse cx="945" cy="211" rx="22" ry="13" fill="#9a8030" opacity="0.65"/>
+
+  <!-- ===== DIMENSION LINES ===== -->
+  <line x1="42" y1="62" x2="42" y2="418" stroke="#cc2222" stroke-width="1.2"/>
+  <line x1="35" y1="62" x2="70" y2="62" stroke="#cc2222" stroke-width="0.8"/>
+  <line x1="35" y1="418" x2="70" y2="418" stroke="#cc2222" stroke-width="0.8"/>
+  <polygon points="42,68 38,82 46,82" fill="#cc2222"/>
+  <polygon points="42,412 38,398 46,398" fill="#cc2222"/>
+  <text x="30" y="245" font-family="Arial,sans-serif" font-size="11" fill="#cc2222" text-anchor="middle" transform="rotate(-90,30,245)">3000 mm</text>
+
+  <line x1="1042" y1="342" x2="1042" y2="418" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1035" y1="342" x2="1055" y2="342" stroke="#cc2222" stroke-width="0.8"/>
+  <line x1="1035" y1="418" x2="1055" y2="418" stroke="#cc2222" stroke-width="0.8"/>
+  <polygon points="1042,348 1038,362 1046,362" fill="#cc2222"/>
+  <polygon points="1042,412 1038,398 1046,398" fill="#cc2222"/>
+  <text x="1062" y="384" font-family="Arial,sans-serif" font-size="10" fill="#cc2222">1100 mm</text>
+
+  <!-- Labels -->
+  <text x="1044" y="202" font-family="Arial,sans-serif" font-size="9" fill="#555">GLASS PENDANTS</text>
+  <text x="1044" y="310" font-family="Arial,sans-serif" font-size="9" fill="#555">GLASS SHELF 1</text>
+  <text x="1044" y="344" font-family="Arial,sans-serif" font-size="9" fill="#555">STONE COUNTER</text>
+  <text x="1044" y="430" font-family="Arial,sans-serif" font-size="9" fill="#555">FLOOR LEVEL</text>
+</svg>

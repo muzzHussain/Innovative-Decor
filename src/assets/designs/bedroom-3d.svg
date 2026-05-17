@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <!-- Dark background -->
+  <rect width="900" height="660" fill="#0f0e0d"/>
+
+  <!-- ===== ROOM BOX (5w x 4d x 3h) ===== -->
+  <!-- floor: warm wood tone -->
+  <polygon points="440,380 635,492 479,582 284,470" fill="#1a1208" stroke="#241808" stroke-width="0.5"/>
+  <!-- wood floor planks -->
+  <line x1="362" y1="440" x2="557" y2="552" stroke="#201408" stroke-width="0.8" opacity="0.5"/>
+  <line x1="323" y1="455" x2="518" y2="567" stroke="#201408" stroke-width="0.8" opacity="0.5"/>
+  <line x1="453" y1="416" x2="648" y2="528" stroke="#201408" stroke-width="0.8" opacity="0.5"/>
+  <line x1="400" y1="400" x2="595" y2="512" stroke="#201408" stroke-width="0.8" opacity="0.5"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#201408" stroke-width="0.8" opacity="0.35"/>
+  <line x1="479" y1="402" x2="323" y2="492" stroke="#201408" stroke-width="0.8" opacity="0.35"/>
+  <line x1="518" y1="424" x2="362" y2="514" stroke="#201408" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- left wall: warm grey with wainscoting -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#1e1c18"/>
+  <!-- wainscoting panel on left wall -->
+  <polygon points="440,370 284,460 284,425 440,335" fill="#1a1814"/>
+  <line x1="440" y1="370" x2="284" y2="460" stroke="#282420" stroke-width="0.8"/>
+  <line x1="440" y1="335" x2="284" y2="425" stroke="#282420" stroke-width="0.8"/>
+
+  <!-- back wall: feature headboard wall -->
+  <polygon points="440,380 635,492 635,357 440,245" fill="#1c1a16"/>
+  <!-- Fluted dark wood headboard wall panel (x=0.3-3.5, z=0, h=0.5-2.5) -->
+  <polygon points="452,337 576,405 576,323 452,255" fill="#16120e"/>
+  <!-- Fluted panel vertical lines -->
+  <line x1="460" y1="257" x2="460" y2="339" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="471" y1="263" x2="471" y2="345" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="482" y1="269" x2="482" y2="351" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="493" y1="275" x2="493" y2="357" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="504" y1="281" x2="504" y2="363" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="515" y1="287" x2="515" y2="369" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="526" y1="293" x2="526" y2="375" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="537" y1="299" x2="537" y2="381" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="548" y1="305" x2="548" y2="387" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="559" y1="311" x2="559" y2="393" stroke="#201c18" stroke-width="2.5"/>
+  <line x1="570" y1="317" x2="570" y2="399" stroke="#201c18" stroke-width="2.5"/>
+  <!-- Panel border lines -->
+  <line x1="452" y1="255" x2="576" y2="323" stroke="#2a2420" stroke-width="1"/>
+  <line x1="452" y1="337" x2="576" y2="405" stroke="#2a2420" stroke-width="1"/>
+
+  <!-- ceiling: warm off-white -->
+  <polygon points="440,245 635,357 479,447 284,335" fill="#1c1a14" opacity="0.45"/>
+
+  <!-- ===== PLATFORM BED (x=0.6-4.4, z=0-1.8, h=0.4m platform) ===== -->
+  <!-- (0.6,0,0): px=440+0.6*39=463.4≈463, py=380+0.6*22.5=393.5≈394 -->
+  <!-- (4.4,0,0): px=440+4.4*39=611.6≈612, py=380+4.4*22.5=479≈479 -->
+  <!-- (4.4,1.8,0): px=440+(4.4-1.8)*39=440+101.4=541.4≈541, py=380+(4.4+1.8)*22.5=380+139.5=519.5≈520 -->
+  <!-- (0.6,1.8,0): px=440+(0.6-1.8)*39=440-46.8=393.2≈393, py=380+(0.6+1.8)*22.5=380+54=434 -->
+  <!-- Platform top at y=0.4: -->
+  <!-- (0.6,0,0.4): px=463, py=394-18=376 -->
+  <!-- (4.4,0,0.4): px=612, py=479-18=461 -->
+  <!-- (4.4,1.8,0.4): px=541, py=520-18=502 -->
+  <!-- (0.6,1.8,0.4): px=393, py=434-18=416 -->
+  <!-- Platform front face (z=1.8) -->
+  <polygon points="393,434 541,520 541,502 393,416" fill="#2a2018"/>
+  <!-- Platform right face (x=4.4) -->
+  <polygon points="612,479 541,520 541,502 612,461" fill="#1e1810"/>
+  <!-- Platform top -->
+  <polygon points="463,376 612,461 541,502 393,416" fill="#382a1c"/>
+
+  <!-- ===== MATTRESS/BED BODY (on platform, h=0.4 to 0.9m) ===== -->
+  <!-- (0.7,0.1,0.4)→(0.7,0.1,0.9) etc. — approximate with the platform dimensions minus border -->
+  <!-- Mattress front face (z=1.75, slightly inset) -->
+  <polygon points="397,432 538,516 538,493 397,409" fill="#3a3028"/>
+  <!-- Mattress right face -->
+  <polygon points="608,459 538,516 538,493 608,436" fill="#2e2420"/>
+  <!-- Mattress top (bed surface) -->
+  <polygon points="466,376 608,436 538,493 397,409" fill="#4a3e30"/>
+
+  <!-- ===== HEADBOARD (x=0.6-4.4, z=0, h=0.4-2.0m) ===== -->
+  <!-- Headboard front face (z=0.15, from y=0.4 to y=2.0) -->
+  <!-- (0.6,0.15,0.4): px=440+(0.6-0.15)*39=440+17.55=457.55≈458, py=380+(0.6+0.15)*22.5-18=380+16.875-18=378.875≈379 -->
+  <!-- (4.4,0.15,0.4): px=440+(4.4-0.15)*39=440+165.75=605.75≈606, py=380+(4.4+0.15)*22.5-18=380+102.375-18=464.375≈464 -->
+  <!-- (4.4,0.15,2.0): px=606, py=464-90=374 -->
+  <!-- (0.6,0.15,2.0): px=458, py=379-90=289 -->
+  <polygon points="458,379 606,464 606,374 458,289" fill="#1e1814"/>
+  <!-- Upholstered headboard center panel (lighter fabric) -->
+  <polygon points="466,362 598,446 598,360 466,276" fill="#2c2420"/>
+  <!-- headboard tufting dots -->
+  <ellipse cx="506" cy="320" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="528" cy="332" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="550" cy="344" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="572" cy="356" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="506" cy="348" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="528" cy="360" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="550" cy="372" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="572" cy="384" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="506" cy="376" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="528" cy="388" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="550" cy="400" rx="3" ry="2" fill="#3a3028"/>
+  <ellipse cx="572" cy="412" rx="3" ry="2" fill="#3a3028"/>
+  <!-- Headboard top face -->
+  <polygon points="458,289 606,374 598,360 466,276" fill="#282218"/>
+
+  <!-- Pillows on bed -->
+  <polygon points="468,392 508,414 508,400 468,378" fill="#4e4438" rx="3"/>
+  <polygon points="512,414 552,436 552,422 512,400" fill="#4e4438" rx="3"/>
+  <!-- Blanket/duvet -->
+  <polygon points="470,430 608,455 538,492 397,430" fill="#3e3428" opacity="0.85"/>
+  <!-- Blanket fold line -->
+  <line x1="470" y1="417" x2="608" y2="442" stroke="#4a3e30" stroke-width="1"/>
+
+  <!-- ===== LEFT BEDSIDE TABLE (x=0.3-0.7, z=0.2-0.9, h=0.6m) ===== -->
+  <!-- (0.3,0.2,0): px=440+(0.3-0.2)*39=440+3.9=443.9≈444, py=380+(0.3+0.2)*22.5=391.25≈391 -->
+  <!-- (0.7,0.2,0): px=440+(0.7-0.2)*39=440+19.5=459.5≈460, py=380+(0.7+0.2)*22.5=380+20.25=400.25≈400 -->
+  <!-- (0.7,0.9,0): px=440+(0.7-0.9)*39=440-7.8=432.2≈432, py=380+(0.7+0.9)*22.5=380+36=416 -->
+  <!-- (0.3,0.9,0): px=440+(0.3-0.9)*39=440-23.4=416.6≈417, py=380+(0.3+0.9)*22.5=380+27=407 -->
+  <!-- At h=0.6m: subtract 27 from py -->
+  <!-- Front face of bedside table: -->
+  <polygon points="417,407 432,416 432,389 417,380" fill="#2a2018"/>
+  <!-- Top: -->
+  <polygon points="444,391 460,400 432,389 417,380" fill="#3a3020"/>
+  <!-- Right face: -->
+  <polygon points="460,400 432,416 432,389 460,373" fill="#1e1810"/>
+  <!-- Bedside lamp -->
+  <line x1="437" y1="387" x2="437" y2="374" stroke="#6a5838" stroke-width="2"/>
+  <ellipse cx="437" cy="372" rx="10" ry="6" fill="#c8a848" opacity="0.85"/>
+  <ellipse cx="437" cy="374" rx="10" ry="6" fill="#a08030" opacity="0.6"/>
+  <ellipse cx="437" cy="360" rx="18" ry="10" fill="#d4b858" opacity="0.08"/>
+
+  <!-- ===== RIGHT BEDSIDE TABLE (x=3.8-4.4, z=0.2-0.9) ===== -->
+  <!-- (3.8,0.2,0): px=440+(3.8-0.2)*39=440+140.4=580.4≈580, py=380+(3.8+0.2)*22.5=380+90=470 -->
+  <!-- (4.4,0.2,0): px=440+(4.4-0.2)*39=440+163.8=603.8≈604, py=380+(4.4+0.2)*22.5=380+103.5=483.5≈484 -->
+  <!-- (4.4,0.9,0): px=440+(4.4-0.9)*39=440+136.5=576.5≈577, py=380+(4.4+0.9)*22.5=380+119.25=499.25≈499 -->
+  <!-- (3.8,0.9,0): px=440+(3.8-0.9)*39=440+113.1=553.1≈553, py=380+(3.8+0.9)*22.5=380+105.75=485.75≈486 -->
+  <polygon points="553,486 577,499 577,472 553,459" fill="#2a2018"/>
+  <polygon points="580,470 604,484 577,472 553,459" fill="#3a3020"/>
+  <polygon points="604,484 577,499 577,472 604,457" fill="#1e1810"/>
+  <!-- Lamp -->
+  <line x1="570" y1="469" x2="570" y2="456" stroke="#6a5838" stroke-width="2"/>
+  <ellipse cx="570" cy="454" rx="10" ry="6" fill="#c8a848" opacity="0.85"/>
+  <ellipse cx="570" cy="456" rx="10" ry="6" fill="#a08030" opacity="0.6"/>
+  <ellipse cx="570" cy="442" rx="18" ry="10" fill="#d4b858" opacity="0.08"/>
+
+  <!-- ===== WARDROBE (right wall, x=4.0-5.0, z=1.8-3.8, h=2.4m) ===== -->
+  <!-- (4,1.8,0): px=440+(4-1.8)*39=440+85.8=525.8≈526, py=380+(4+1.8)*22.5=510.5≈511 -->
+  <!-- (5,1.8,0): px=440+(5-1.8)*39=440+124.8=564.8≈565, py=380+(5+1.8)*22.5=533 -->
+  <!-- (5,3.8,0): px=440+(5-3.8)*39=440+46.8=486.8≈487, py=380+(5+3.8)*22.5=578 -->
+  <!-- (4,3.8,0): px=440+(4-3.8)*39=440+7.8=447.8≈448, py=380+(4+3.8)*22.5=556 -->
+  <!-- At h=2.4m, py reduces by 2.4*45=108 -->
+  <!-- Left face (x=4): -->
+  <polygon points="526,511 448,556 448,448 526,403" fill="#1a1614"/>
+  <!-- Top face: -->
+  <polygon points="526,403 565,425 487,470 448,448" fill="#242018"/>
+  <!-- Front face (z=3.8): -->
+  <polygon points="448,556 487,578 487,470 448,448" fill="#201c18"/>
+  <!-- Wardrobe door lines -->
+  <line x1="467" y1="470" x2="467" y2="578" stroke="#2a2620" stroke-width="0.8"/>
+  <line x1="448" y1="503" x2="487" y2="524" stroke="#2a2620" stroke-width="0.8"/>
+
+  <!-- ===== FLOOR LAMP (left corner, x=0.3, z=3.5) ===== -->
+  <!-- (0.3, 3.5): px=440+(0.3-3.5)*39=440-124.8=315.2≈315, py=380+(0.3+3.5)*22.5=380+85.5=465.5≈466 -->
+  <line x1="315" y1="466" x2="315" y2="392" stroke="#5a5048" stroke-width="3"/>
+  <ellipse cx="315" cy="390" rx="13" ry="7" fill="#d4b858" opacity="0.9"/>
+  <ellipse cx="315" cy="392" rx="13" ry="7" fill="#c0a040" opacity="0.7"/>
+  <ellipse cx="315" cy="360" rx="36" ry="20" fill="#d4b858" opacity="0.07"/>
+
+  <!-- ===== PENDANT LIGHT (ceiling center) ===== -->
+  <line x1="460" y1="357" x2="460" y2="382" stroke="#5a5048" stroke-width="1.5"/>
+  <ellipse cx="460" cy="384" rx="18" ry="10" fill="#c8a848"/>
+  <ellipse cx="460" cy="386" rx="18" ry="10" fill="#b09030" opacity="0.8"/>
+  <ellipse cx="460" cy="360" rx="28" ry="15" fill="#d4b858" opacity="0.05"/>
+
+  <!-- Wall edges -->
+  <line x1="440" y1="380" x2="440" y2="245" stroke="#786e64" stroke-width="1.5"/>
+  <line x1="635" y1="492" x2="635" y2="357" stroke="#786e64" stroke-width="1"/>
+  <line x1="284" y1="470" x2="284" y2="335" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="245" x2="635" y2="357" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="245" x2="284" y2="335" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="380" x2="635" y2="492" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#786e64" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ccc6bc" text-anchor="middle" letter-spacing="4">3D VIEW  //  MASTER BEDROOM  //  SLEEPING SUITE</text>
+  <line x1="220" y1="628" x2="680" y2="628" stroke="#5a5048" stroke-width="0.8"/>
+</svg>

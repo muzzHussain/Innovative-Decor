@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <!-- Dark background -->
+  <rect width="900" height="660" fill="#0f0e0d"/>
+
+  <!-- ===== ROOM BOX (5w x 4d x 3h) ===== -->
+  <!-- floor: polished concrete -->
+  <polygon points="440,380 635,492 479,582 284,470" fill="#181818" stroke="#222222" stroke-width="0.5"/>
+  <!-- subtle floor reflections -->
+  <line x1="362" y1="440" x2="557" y2="552" stroke="#222" stroke-width="0.8" opacity="0.5"/>
+  <line x1="323" y1="455" x2="518" y2="567" stroke="#222" stroke-width="0.8" opacity="0.5"/>
+  <line x1="453" y1="416" x2="648" y2="528" stroke="#222" stroke-width="0.8" opacity="0.5"/>
+  <line x1="400" y1="400" x2="595" y2="512" stroke="#222" stroke-width="0.8" opacity="0.5"/>
+  <line x1="479" y1="402" x2="323" y2="492" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+  <line x1="518" y1="424" x2="362" y2="514" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+  <line x1="557" y1="446" x2="401" y2="536" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- left wall: dark with horizontal accent strip -->
+  <polygon points="440,380 284,470 284,335 440,245" fill="#1a1a1c"/>
+  <!-- horizontal wainscoting -->
+  <polygon points="440,345 284,435 284,425 440,335" fill="#222226" opacity="0.7"/>
+  <line x1="440" y1="345" x2="284" y2="435" stroke="#2e2e34" stroke-width="0.8"/>
+  <line x1="440" y1="335" x2="284" y2="425" stroke="#2e2e34" stroke-width="0.8"/>
+
+  <!-- back wall: dark with branding panel -->
+  <polygon points="440,380 635,492 635,357 440,245" fill="#1c1c20"/>
+  <!-- dark wood slat panel on back wall (x=0.5-4.5, z=0, h=0.5-2.5) -->
+  <polygon points="460,291 617,381 617,359 460,269" fill="#14100c"/>
+  <line x1="467" y1="271" x2="467" y2="291" stroke="#1e1814" stroke-width="2"/>
+  <line x1="478" y1="277" x2="478" y2="297" stroke="#1e1814" stroke-width="2"/>
+  <line x1="489" y1="283" x2="489" y2="303" stroke="#1e1814" stroke-width="2"/>
+  <line x1="500" y1="289" x2="500" y2="309" stroke="#1e1814" stroke-width="2"/>
+  <line x1="511" y1="295" x2="511" y2="315" stroke="#1e1814" stroke-width="2"/>
+  <line x1="522" y1="301" x2="522" y2="321" stroke="#1e1814" stroke-width="2"/>
+  <line x1="533" y1="307" x2="533" y2="327" stroke="#1e1814" stroke-width="2"/>
+  <line x1="544" y1="313" x2="544" y2="333" stroke="#1e1814" stroke-width="2"/>
+  <line x1="555" y1="319" x2="555" y2="339" stroke="#1e1814" stroke-width="2"/>
+  <line x1="566" y1="325" x2="566" y2="345" stroke="#1e1814" stroke-width="2"/>
+  <line x1="577" y1="331" x2="577" y2="351" stroke="#1e1814" stroke-width="2"/>
+  <line x1="588" y1="337" x2="588" y2="357" stroke="#1e1814" stroke-width="2"/>
+  <line x1="599" y1="343" x2="599" y2="363" stroke="#1e1814" stroke-width="2"/>
+  <line x1="610" y1="349" x2="610" y2="369" stroke="#1e1814" stroke-width="2"/>
+  <!-- company logo text on panel -->
+  <text x="536" y="282" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#a09070" text-anchor="middle" letter-spacing="2" transform="skewX(-15) translate(0,0)">INNOVATIVE</text>
+  <text x="536" y="291" font-family="Arial,sans-serif" font-size="7" font-weight="bold" fill="#a09070" text-anchor="middle" letter-spacing="2" transform="skewX(-15) translate(0,0)">DECOR</text>
+
+  <!-- ceiling -->
+  <polygon points="440,245 635,357 479,447 284,335" fill="#18181c" opacity="0.4"/>
+  <!-- ceiling track light rails -->
+  <line x1="440" y1="280" x2="635" y2="392" stroke="#303038" stroke-width="2"/>
+  <line x1="440" y1="300" x2="635" y2="412" stroke="#303038" stroke-width="2"/>
+
+  <!-- ===== CONFERENCE TABLE (x=1.5-4.5, z=0.3-1.8, h=0.75m) ===== -->
+  <!-- Front face (z=1.8 face) -->
+  <polygon points="428,454 545,521 545,487 428,420" fill="#1e1a14"/>
+  <!-- Right face (x=4.5) -->
+  <polygon points="604,454 545,521 545,487 604,420" fill="#141008"/>
+  <!-- Top face -->
+  <polygon points="487,387 604,454 545,487 428,420" fill="#2c2418"/>
+  <!-- glass top sheen -->
+  <polygon points="489,385 602,452 543,485 430,418" fill="#3a3028" opacity="0.5"/>
+  <!-- table surface line detail -->
+  <line x1="490" y1="386" x2="603" y2="453" stroke="#4a4030" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- Conference chairs (6 chairs, ellipses) -->
+  <!-- Near side: 3 chairs at z=2.2 -->
+  <ellipse cx="440" cy="480" rx="18" ry="10" fill="#2a2828" stroke="#383636" stroke-width="1"/>
+  <ellipse cx="490" cy="506" rx="18" ry="10" fill="#2a2828" stroke="#383636" stroke-width="1"/>
+  <ellipse cx="540" cy="532" rx="18" ry="10" fill="#2a2828" stroke="#383636" stroke-width="1"/>
+  <!-- Far side: 3 chairs at z=0, behind table -->
+  <ellipse cx="456" cy="400" rx="14" ry="8" fill="#222020" stroke="#303030" stroke-width="0.8" opacity="0.7"/>
+  <ellipse cx="510" cy="428" rx="14" ry="8" fill="#222020" stroke="#303030" stroke-width="0.8" opacity="0.7"/>
+  <ellipse cx="564" cy="456" rx="14" ry="8" fill="#222020" stroke="#303030" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- ===== WORKSTATION 1 (x=0.3-1.8, z=2.4-3.0, h=0.75m) ===== -->
+  <!-- Front face (z=3.0) -->
+  <polygon points="335,454 413,476 413,442 335,420" fill="#242220"/>
+  <!-- Top -->
+  <polygon points="354,409 413,442 393,454 335,420" fill="#302e2c"/>
+  <!-- Monitor on workstation 1 -->
+  <polygon points="370,395 400,411 400,374 370,358" fill="#0a0a10"/>
+  <polygon points="373,392 397,407 397,377 373,362" fill="#0d1220" opacity="0.9"/>
+  <!-- screen glow -->
+  <polygon points="375,390 395,404 395,380 375,366" fill="#1a2840" opacity="0.6"/>
+
+  <!-- ===== WORKSTATION 2 (x=0.3-1.8, z=3.2-3.8, h=0.75m) ===== -->
+  <polygon points="296,473 374,495 374,461 296,439" fill="#242220"/>
+  <polygon points="315,428 374,461 354,473 296,439" fill="#302e2c"/>
+  <polygon points="330,414 360,430 360,393 330,377" fill="#0a0a10"/>
+  <polygon points="333,411 357,426 357,396 333,381" fill="#0d1220" opacity="0.9"/>
+  <polygon points="335,409 355,423 355,398 335,384" fill="#1a2840" opacity="0.6"/>
+
+  <!-- ===== RECEPTION DESK (near-right, x=3.5-5.0, z=3.2-3.8) ===== -->
+  <!-- px at (3.5, 3.2, 0)=440+(3.5-3.2)*39=452, py=380+(3.5+3.2)*22.5=530.75≈531 -->
+  <!-- px at (5.0, 3.2, 0)=440+(5-3.2)*39=510, py=380+(5+3.2)*22.5=564.5≈565 -->
+  <!-- px at (5.0, 3.8, 0)=440+(5-3.8)*39=487, py=380+(5+3.8)*22.5=578 -->
+  <!-- px at (3.5, 3.8, 0)=440+(3.5-3.8)*39=428, py=380+(3.5+3.8)*22.5=544.25≈544 -->
+  <!-- curved/rounded reception desk (top at h=1.1) -->
+  <polygon points="428,544 487,578 487,530 428,496" fill="#1e1a14"/>
+  <polygon points="487,578 510,565 510,517 487,530" fill="#14100c"/>
+  <polygon points="452,491 510,517 487,530 428,496" fill="#2c2418"/>
+
+  <!-- Track light spots on ceiling -->
+  <ellipse cx="537" cy="392" rx="4" ry="3" fill="#c8a030" opacity="0.9"/>
+  <line x1="537" y1="395" x2="537" y2="392" stroke="#5a5040" stroke-width="1"/>
+  <ellipse cx="527" cy="430" rx="25" ry="14" fill="#c8a030" opacity="0.05"/>
+  <ellipse cx="487" cy="412" rx="4" ry="3" fill="#c8a030" opacity="0.9"/>
+  <line x1="487" y1="415" x2="487" y2="412" stroke="#5a5040" stroke-width="1"/>
+
+  <!-- Pendant light over conference table -->
+  <line x1="530" y1="357" x2="530" y2="380" stroke="#5a5048" stroke-width="1.5"/>
+  <ellipse cx="530" cy="382" rx="20" ry="11" fill="#c8a848"/>
+  <ellipse cx="530" cy="384" rx="20" ry="11" fill="#b09030" opacity="0.7"/>
+  <ellipse cx="530" cy="358" rx="30" ry="17" fill="#d4b858" opacity="0.05"/>
+
+  <!-- Plant in corner (left-far) -->
+  <ellipse cx="296" cy="455" rx="18" ry="11" fill="#1e3a1a" opacity="0.9"/>
+  <ellipse cx="290" cy="443" rx="14" ry="9" fill="#263e22"/>
+  <ellipse cx="302" cy="441" rx="12" ry="8" fill="#2a4428"/>
+  <rect x="291" y="455" width="10" height="16" rx="2" fill="#5a4028"/>
+
+  <!-- Wall edges -->
+  <line x1="440" y1="380" x2="440" y2="245" stroke="#786e64" stroke-width="1.5"/>
+  <line x1="635" y1="492" x2="635" y2="357" stroke="#786e64" stroke-width="1"/>
+  <line x1="284" y1="470" x2="284" y2="335" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="245" x2="635" y2="357" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="245" x2="284" y2="335" stroke="#786e64" stroke-width="0.8"/>
+  <line x1="440" y1="380" x2="635" y2="492" stroke="#786e64" stroke-width="1"/>
+  <line x1="440" y1="380" x2="284" y2="470" stroke="#786e64" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ccc6bc" text-anchor="middle" letter-spacing="4">3D VIEW  //  CORPORATE OFFICE  //  OPEN PLAN</text>
+  <line x1="220" y1="628" x2="680" y2="628" stroke="#5a5048" stroke-width="0.8"/>
+</svg>

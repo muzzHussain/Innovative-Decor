@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660">
+  <rect width="900" height="660" fill="#111111"/>
+  <text x="32" y="52" font-family="Georgia,serif" font-size="30" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">Layout.</text>
+  <text x="32" y="72" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" letter-spacing="3">CORPORATE OFFICE</text>
+
+  <!-- outer wall -->
+  <rect x="120" y="88" width="670" height="484" fill="#1c1c1c" stroke="#ccc6bc" stroke-width="9" stroke-linejoin="miter"/>
+
+  <!-- internal walls -->
+  <!-- Reception zone (bottom strip) -->
+  <line x1="120" y1="448" x2="790" y2="448" stroke="#ccc6bc" stroke-width="6"/>
+  <!-- Conference room (top-right) -->
+  <line x1="540" y1="88" x2="540" y2="300" stroke="#ccc6bc" stroke-width="6"/>
+  <line x1="540" y1="300" x2="790" y2="300" stroke="#ccc6bc" stroke-width="6"/>
+  <!-- Manager cabin (top-left) -->
+  <line x1="120" y1="88" x2="120" y2="300" stroke="#ccc6bc" stroke-width="0"/>
+  <line x1="290" y1="88" x2="290" y2="300" stroke="#ccc6bc" stroke-width="6"/>
+  <line x1="290" y1="300" x2="120" y2="300" stroke="#ccc6bc" stroke-width="6"/>
+
+  <!-- fills -->
+  <rect x="124" y="92" width="162" height="204" fill="#1a1a1a"/>
+  <rect x="290" y="92" width="246" height="352" fill="#1d1d1d"/>
+  <rect x="544" y="92" width="242" height="204" fill="#1b1b1b"/>
+  <rect x="544" y="304" width="242" height="140" fill="#1c1c1c"/>
+  <rect x="124" y="304" width="162" height="140" fill="#1b1b1b"/>
+  <rect x="124" y="452" width="662" height="126" fill="#1e1e1e"/>
+
+  <!-- MANAGER CABIN -->
+  <!-- desk -->
+  <rect x="138" y="110" width="130" height="64" rx="4" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="138" y="164" width="64" height="40" rx="4" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <!-- chair -->
+  <circle cx="195" cy="200" r="18" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <!-- side chairs -->
+  <rect x="140" y="110" width="40" height="16" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="225" y="110" width="40" height="16" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <!-- bookshelf -->
+  <rect x="138" y="248" width="140" height="40" rx="2" fill="#232323" stroke="#383838" stroke-width="1"/>
+  <line x1="185" y1="248" x2="185" y2="288" stroke="#2e2e2e" stroke-width="1.5"/>
+  <line x1="233" y1="248" x2="233" y2="288" stroke="#2e2e2e" stroke-width="1.5"/>
+
+  <!-- OPEN WORKSTATION AREA (center) -->
+  <!-- Row 1 of workstations -->
+  <rect x="306" y="108" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="420" y="108" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="306" y="178" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="420" y="178" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <!-- monitors -->
+  <rect x="316" y="112" width="50" height="28" rx="2" fill="#222222"/>
+  <rect x="430" y="112" width="50" height="28" rx="2" fill="#222222"/>
+  <rect x="316" y="182" width="50" height="28" rx="2" fill="#222222"/>
+  <rect x="430" y="182" width="50" height="28" rx="2" fill="#222222"/>
+  <!-- chairs -->
+  <circle cx="356" cy="155" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="470" cy="155" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="356" cy="225" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="470" cy="225" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <!-- Row 2 workstations -->
+  <rect x="306" y="260" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="420" y="260" width="100" height="60" rx="3" fill="#252525" stroke="#383838" stroke-width="1.5"/>
+  <rect x="316" y="264" width="50" height="28" rx="2" fill="#222222"/>
+  <rect x="430" y="264" width="50" height="28" rx="2" fill="#222222"/>
+  <circle cx="356" cy="307" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="470" cy="307" r="14" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+
+  <!-- CONFERENCE ROOM -->
+  <!-- large conference table -->
+  <rect x="568" y="118" width="192" height="130" rx="8" fill="#232323" stroke="#363636" stroke-width="2"/>
+  <!-- chairs around table -->
+  <rect x="578" y="102" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="618" y="102" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="658" y="102" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="698" y="102" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="578" y="250" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="618" y="250" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="658" y="250" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="698" y="250" width="30" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="552" y="132" width="14" height="30" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="552" y="172" width="14" height="30" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="762" y="132" width="14" height="30" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="762" y="172" width="14" height="30" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <!-- projector screen -->
+  <rect x="563" y="92" width="200" height="8" rx="2" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- BREAKOUT ZONE (center-right middle) -->
+  <circle cx="665" cy="366" r="36" fill="#222222" stroke="#363636" stroke-width="1.5"/>
+  <rect x="640" y="324" width="50" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="640" y="394" width="50" height="14" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="622" y="348" width="14" height="36" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+  <rect x="694" y="348" width="14" height="36" rx="3" fill="#2a2a2a" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- RECEPTION (bottom) -->
+  <rect x="310" y="466" width="290" height="88" rx="6" fill="#252525" stroke="#383838" stroke-width="2"/>
+  <rect x="310" y="466" width="290" height="18" rx="5" fill="#2d2d2d" stroke="#3c3c3c" stroke-width="1"/>
+  <!-- reception chairs -->
+  <circle cx="178" cy="496" r="20" fill="#232323" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="238" cy="496" r="20" fill="#232323" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="672" cy="496" r="20" fill="#232323" stroke="#363636" stroke-width="1.5"/>
+  <circle cx="732" cy="496" r="20" fill="#232323" stroke="#363636" stroke-width="1.5"/>
+
+  <!-- door swings -->
+  <rect x="220" y="296" width="68" height="9" fill="#111111"/>
+  <path d="M 220,300 Q 220,242 282,242" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <rect x="115" y="380" width="10" height="65" fill="#111111"/>
+  <path d="M 120,380 Q 188,380 188,438" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <rect x="536" y="178" width="9" height="68" fill="#111111"/>
+  <path d="M 540,178 Q 608,178 608,240" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+  <rect x="454" y="444" width="72" height="9" fill="#111111"/>
+  <path d="M 454,448 Q 454,386 520,386" fill="none" stroke="#ccc6bc" stroke-width="1" stroke-dasharray="4,3" opacity="0.65"/>
+
+  <!-- LABELS -->
+  <text x="32" y="196" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Manager Cabin</text>
+  <line x1="118" y1="193" x2="128" y2="188" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="128" cy="188" r="2.5" fill="#ccc6bc"/>
+
+  <text x="32" y="352" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Server Room</text>
+  <line x1="118" y1="349" x2="130" y2="342" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="130" cy="342" r="2.5" fill="#ccc6bc"/>
+
+  <text x="330" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Workstations</text>
+  <line x1="396" y1="72" x2="430" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="430" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="580" y="68" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Conference Room</text>
+  <line x1="665" y1="72" x2="665" y2="88" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="665" cy="88" r="2.5" fill="#ccc6bc"/>
+
+  <text x="796" y="366" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Breakout</text>
+  <line x1="794" y1="363" x2="778" y2="358" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="778" cy="358" r="2.5" fill="#ccc6bc"/>
+
+  <text x="396" y="635" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ccc6bc">Reception Area</text>
+  <line x1="455" y1="630" x2="455" y2="572" stroke="#ccc6bc" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <circle cx="455" cy="572" r="2.5" fill="#ccc6bc"/>
+
+  <!-- scale bar -->
+  <line x1="130" y1="620" x2="330" y2="620" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="130" y1="614" x2="130" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="230" y1="614" x2="230" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <line x1="330" y1="614" x2="330" y2="626" stroke="#ccc6bc" stroke-width="1.5"/>
+  <text x="130" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">0</text>
+  <text x="230" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">5m</text>
+  <text x="330" y="638" font-family="Arial,sans-serif" font-size="10" fill="#6a6460" text-anchor="middle">10m</text>
+</svg>

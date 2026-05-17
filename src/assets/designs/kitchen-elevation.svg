@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600">
+  <!-- Background -->
+  <rect width="1100" height="600" fill="#f4f1ec"/>
+  <!-- Outer drawing frame -->
+  <rect x="50" y="30" width="1000" height="510" fill="none" stroke="#999" stroke-width="1"/>
+
+  <!-- ===== FLOOR LINE ===== -->
+  <line x1="50" y1="460" x2="1050" y2="460" stroke="#333" stroke-width="2"/>
+
+  <!-- ===== CEILING LINE ===== -->
+  <line x1="50" y1="60" x2="1050" y2="60" stroke="#333" stroke-width="1.5"/>
+
+  <!-- ===== WALL: ceramic tile backsplash zone (from floor to 900mm height) ===== -->
+  <!-- Full wall base (light plaster) -->
+  <rect x="50" y="60" width="1000" height="400" fill="#e8e4dc"/>
+
+  <!-- Tile backsplash area: counter-top to 900mm above (y=460 to y=250 approx) -->
+  <!-- Counter top at y=340 (1100mm), backsplash ends at y=160 (2400mm from floor) -->
+  <rect x="50" y="160" width="1000" height="180" fill="#dcd6cc"/>
+  <!-- Horizontal tile grout lines -->
+  <line x1="50" y1="175" x2="1050" y2="175" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="190" x2="1050" y2="190" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="205" x2="1050" y2="205" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="220" x2="1050" y2="220" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="235" x2="1050" y2="235" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="250" x2="1050" y2="250" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="265" x2="1050" y2="265" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="280" x2="1050" y2="280" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="295" x2="1050" y2="295" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="310" x2="1050" y2="310" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="50" y1="325" x2="1050" y2="325" stroke="#c4beb6" stroke-width="0.8"/>
+  <!-- Vertical tile grout lines (offset brick-bond pattern) -->
+  <line x1="110" y1="160" x2="110" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="170" y1="160" x2="170" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="230" y1="160" x2="230" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="290" y1="160" x2="290" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="350" y1="160" x2="350" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="410" y1="160" x2="410" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="470" y1="160" x2="470" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="530" y1="160" x2="530" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="590" y1="160" x2="590" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="650" y1="160" x2="650" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="710" y1="160" x2="710" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="770" y1="160" x2="770" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="830" y1="160" x2="830" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="890" y1="160" x2="890" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="950" y1="160" x2="950" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+  <line x1="1010" y1="160" x2="1010" y2="340" stroke="#c4beb6" stroke-width="0.8"/>
+
+  <!-- ===== UPPER CABINETS (wall-mounted, y=60-200, two rows of doors) ===== -->
+  <!-- Upper cabinet carcass -->
+  <rect x="50" y="60" width="460" height="140" fill="#2c2822" stroke="#1a1816" stroke-width="1.5"/>
+  <!-- Upper cabinet door divisions (left bank: 5 doors) -->
+  <line x1="142" y1="60" x2="142" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="234" y1="60" x2="234" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="326" y1="60" x2="326" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="418" y1="60" x2="418" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <!-- Door handles (push-to-open notch line) -->
+  <line x1="96"  y1="198" x2="96"  y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="188" y1="198" x2="188" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="280" y1="198" x2="280" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="372" y1="198" x2="372" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="434" y1="198" x2="434" y2="202" stroke="#6a6058" stroke-width="2"/>
+
+  <!-- Right upper cabinet bank -->
+  <rect x="590" y="60" width="460" height="140" fill="#2c2822" stroke="#1a1816" stroke-width="1.5"/>
+  <line x1="682" y1="60" x2="682" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="774" y1="60" x2="774" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="866" y1="60" x2="866" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="958" y1="60" x2="958" y2="200" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="636" y1="198" x2="636" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="728" y1="198" x2="728" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="820" y1="198" x2="820" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="912" y1="198" x2="912" y2="202" stroke="#6a6058" stroke-width="2"/>
+  <line x1="1004" y1="198" x2="1004" y2="202" stroke="#6a6058" stroke-width="2"/>
+
+  <!-- ===== CHIMNEY HOOD (centre, x=460-590) ===== -->
+  <!-- Hood body trapezoidal -->
+  <polygon points="460,60 590,60 570,160 480,160" fill="#3a3430"/>
+  <!-- Hood bottom trim -->
+  <rect x="476" y="158" width="98" height="8" fill="#2a2420"/>
+  <!-- Vent grille lines -->
+  <line x1="490" y1="170" x2="490" y2="195" stroke="#555" stroke-width="1.2"/>
+  <line x1="506" y1="167" x2="506" y2="196" stroke="#555" stroke-width="1.2"/>
+  <line x1="522" y1="165" x2="522" y2="197" stroke="#555" stroke-width="1.2"/>
+  <line x1="538" y1="165" x2="538" y2="197" stroke="#555" stroke-width="1.2"/>
+  <line x1="554" y1="167" x2="554" y2="196" stroke="#555" stroke-width="1.2"/>
+  <line x1="570" y1="170" x2="570" y2="195" stroke="#555" stroke-width="1.2"/>
+  <!-- Hood LED strip at bottom -->
+  <rect x="480" y="192" width="90" height="3" fill="#fff8e0" opacity="0.5"/>
+
+  <!-- ===== LOWER CABINETS / COUNTER ===== -->
+  <!-- Counter body (full width, dark wood) -->
+  <rect x="50" y="340" width="1000" height="120" fill="#2c2822" stroke="#1a1816" stroke-width="1.5"/>
+  <!-- Counter top (stone/granite surface) -->
+  <rect x="46" y="334" width="1008" height="12" fill="#c0b8a8"/>
+  <!-- Waterfall edge left -->
+  <rect x="46" y="334" width="12" height="126" fill="#b0a898"/>
+  <!-- Waterfall edge right -->
+  <rect x="1042" y="334" width="12" height="126" fill="#b0a898"/>
+  <!-- Under-counter LED strip (amber) -->
+  <rect x="50" y="452" width="1000" height="4" fill="#c8a030" opacity="0.4"/>
+
+  <!-- Lower cabinet door divisions -->
+  <line x1="175" y1="340" x2="175" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="300" y1="340" x2="300" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="425" y1="340" x2="425" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="550" y1="340" x2="550" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="675" y1="340" x2="675" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="800" y1="340" x2="800" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+  <line x1="925" y1="340" x2="925" y2="460" stroke="#3c3428" stroke-width="1.5"/>
+
+  <!-- ===== STOVE HOB (center of counter top) ===== -->
+  <rect x="455" y="336" width="140" height="8" fill="#1a1818" stroke="#2a2824" stroke-width="0.8"/>
+  <!-- Burner rings -->
+  <ellipse cx="490" cy="340" rx="14" ry="5" fill="none" stroke="#6a6060" stroke-width="1.5"/>
+  <ellipse cx="530" cy="340" rx="12" ry="4" fill="none" stroke="#6a6060" stroke-width="1.5"/>
+  <ellipse cx="565" cy="340" rx="14" ry="5" fill="none" stroke="#6a6060" stroke-width="1.5"/>
+  <!-- Hob control knobs -->
+  <circle cx="480" cy="345" r="4" fill="#3a3830"/>
+  <circle cx="518" cy="345" r="4" fill="#3a3830"/>
+  <circle cx="555" cy="345" r="4" fill="#3a3830"/>
+  <circle cx="592" cy="345" r="4" fill="#3a3830"/>
+
+  <!-- ===== SINK (right of hob) ===== -->
+  <rect x="720" y="336" width="120" height="8" fill="#282420" stroke="#3a3430" stroke-width="0.8"/>
+  <rect x="728" y="338" width="104" height="4" rx="1" fill="#1a1a1a"/>
+  <!-- Tap -->
+  <line x1="780" y1="334" x2="780" y2="310" stroke="#9a9080" stroke-width="3"/>
+  <ellipse cx="780" cy="310" rx="10" ry="4" fill="#9a9080"/>
+  <line x1="780" y1="314" x2="800" y2="314" stroke="#9a9080" stroke-width="2"/>
+
+  <!-- ===== RED DIMENSION LINES ===== -->
+  <!-- Total height 3000mm -->
+  <line x1="30" y1="60" x2="30" y2="460" stroke="#cc2222" stroke-width="1"/>
+  <line x1="25" y1="60" x2="35" y2="60" stroke="#cc2222" stroke-width="1"/>
+  <line x1="25" y1="460" x2="35" y2="460" stroke="#cc2222" stroke-width="1"/>
+  <text x="20" y="265" font-family="Arial,sans-serif" font-size="9" fill="#cc2222" text-anchor="middle" transform="rotate(-90,20,265)">3000</text>
+
+  <!-- Upper cabinet height: 1400mm from ceiling -->
+  <line x1="1060" y1="60" x2="1060" y2="200" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1055" y1="60" x2="1065" y2="60" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1055" y1="200" x2="1065" y2="200" stroke="#cc2222" stroke-width="1"/>
+  <text x="1075" y="130" font-family="Arial,sans-serif" font-size="9" fill="#cc2222" text-anchor="middle" transform="rotate(90,1075,130)">1400</text>
+
+  <!-- Counter height: 900mm -->
+  <line x1="1060" y1="340" x2="1060" y2="460" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1055" y1="340" x2="1065" y2="340" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1055" y1="460" x2="1065" y2="460" stroke="#cc2222" stroke-width="1"/>
+  <line x1="50" y1="340" x2="1062" y2="340" stroke="#cc2222" stroke-width="0.7" stroke-dasharray="4,3"/>
+  <text x="1075" y="400" font-family="Arial,sans-serif" font-size="9" fill="#cc2222" text-anchor="middle" transform="rotate(90,1075,400)">900</text>
+
+  <!-- Backsplash zone: 1500mm (counter top to 2400mm) -->
+  <line x1="1060" y1="160" x2="1060" y2="340" stroke="#cc2222" stroke-width="1"/>
+  <line x1="1055" y1="160" x2="1065" y2="160" stroke="#cc2222" stroke-width="1"/>
+  <line x1="50" y1="160" x2="1062" y2="160" stroke="#cc2222" stroke-width="0.7" stroke-dasharray="4,3"/>
+  <text x="1075" y="250" font-family="Arial,sans-serif" font-size="9" fill="#cc2222" text-anchor="middle" transform="rotate(90,1075,250)">1500</text>
+
+  <!-- ===== MATERIAL CALLOUT LABELS ===== -->
+  <!-- Upper cabinet -->
+  <line x1="188" y1="130" x2="160" y2="110" stroke="#555" stroke-width="0.8"/>
+  <circle cx="160" cy="110" r="2" fill="#555"/>
+  <text x="80" y="106" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">DARK WOOD</text>
+  <text x="80" y="116" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">UPPER CABINETS</text>
+
+  <!-- Hood -->
+  <line x1="525" y1="110" x2="525" y2="90" stroke="#555" stroke-width="0.8"/>
+  <circle cx="525" cy="90" r="2" fill="#555"/>
+  <text x="525" y="82" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">CHIMNEY HOOD</text>
+
+  <!-- Backsplash tile -->
+  <line x1="300" y1="250" x2="260" y2="270" stroke="#555" stroke-width="0.8"/>
+  <circle cx="260" cy="270" r="2" fill="#555"/>
+  <text x="170" y="270" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">CERAMIC TILE</text>
+  <text x="170" y="280" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">BACKSPLASH</text>
+
+  <!-- Counter top -->
+  <line x1="550" y1="340" x2="550" y2="320" stroke="#555" stroke-width="0.8"/>
+  <circle cx="550" cy="320" r="2" fill="#555"/>
+  <text x="550" y="312" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="middle">GRANITE COUNTER TOP</text>
+
+  <!-- Floor label -->
+  <text x="1040" y="457" font-family="Arial,sans-serif" font-size="8" fill="#333" text-anchor="end">F.F.L. ±0</text>
+
+  <!-- ===== TITLE BLOCK ===== -->
+  <text x="550" y="546" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="4">ELEVATION C  //  MODULAR KITCHEN  //  COUNTER WALL</text>
+  <line x1="200" y1="554" x2="900" y2="554" stroke="#999" stroke-width="0.8"/>
+</svg>
