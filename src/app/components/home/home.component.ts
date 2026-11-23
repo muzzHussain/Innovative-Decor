@@ -1,13 +1,14 @@
 import { Component, ChangeDetectionStrategy, OnInit, OnDestroy, signal, AfterViewInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { ImageWithLoader } from '../image-with-loader/image-with-loader'
+import { CountUpDirective } from '../../directives/count-up.directive';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink, ImageWithLoader],
+  imports: [RouterLink, ImageWithLoader, CountUpDirective],
 })
 export class HomeComponent implements OnInit, OnDestroy {
   projects = [
@@ -67,6 +68,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   doubledClients = [...this.clients, ...this.clients];
 
+  // Testimonials section is temporarily hidden — set to true to show it again.
+  readonly showTestimonials = false;
   currentTestimonialIndex = signal(0);
   private intervalId?: number;
   private typeTimeoutId?: any;
@@ -80,7 +83,9 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
 
   ngOnInit() {
-    this.startTestimonialSlider();
+    if (this.showTestimonials) {
+      this.startTestimonialSlider();
+    }
     this.typeHeroTitle();
   }
 
