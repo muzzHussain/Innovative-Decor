@@ -159,21 +159,21 @@
       <div class="flex flex-wrap items-center gap-8 md:gap-12 border-t border-stone-800 pt-8">
         <div>
           <span class="block text-3xl md:text-4xl font-bold font-serif text-white">
-            35<span class="text-amber-500">+</span>
+            <span class="tabular-nums" [appCountUp]="35">35</span><span class="text-amber-500">+</span>
           </span>
           <span class="text-[10px] uppercase tracking-widest text-stone-500 mt-1 block">Years of Excellence</span>
         </div>
         <div class="w-px h-10 bg-stone-800 hidden sm:block"></div>
         <div>
           <span class="block text-3xl md:text-4xl font-bold font-serif text-white">
-            500<span class="text-amber-500">+</span>
+            <span class="tabular-nums" [appCountUp]="500">500</span><span class="text-amber-500">+</span>
           </span>
           <span class="text-[10px] uppercase tracking-widest text-stone-500 mt-1 block">Projects Delivered</span>
         </div>
         <div class="w-px h-10 bg-stone-800 hidden sm:block"></div>
         <div>
           <span class="block text-3xl md:text-4xl font-bold font-serif text-white">
-            50<span class="text-amber-500">+</span>
+            <span class="tabular-nums" [appCountUp]="50">50</span><span class="text-amber-500">+</span>
           </span>
           <span class="text-[10px] uppercase tracking-widest text-stone-500 mt-1 block">Happy Clients</span>
         </div>
@@ -545,7 +545,8 @@
 }
 -->
 
-<!-- NEW DESIGN: Editorial Testimonials -->
+<!-- NEW DESIGN: Editorial Testimonials (temporarily hidden — toggle `showTestimonials` in home.component.ts) -->
+@if (showTestimonials) {
 <section
   class="py-32 bg-stone-900 border-y border-stone-800 text-stone-100 dark:bg-stone-950 transition-colors duration-300 relative overflow-hidden"
 >
@@ -674,6 +675,7 @@
     </div>
   </div>
 </section>
+}
 
 <!-- === PREVIOUS TRUSTED BY SECTION COMMENTED OUT === -->
 <!--
